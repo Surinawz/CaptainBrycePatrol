@@ -3,11 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp-firstpass.dll:
     - UnityStandardAssets.Water.WaterBasic
     Assembly-CSharp.dll:
-    - CannonBallDeath
     - CannonControl
     - ONSPSettings
     - PlayerControl
-    - TutorialText
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -72,20 +70,30 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12068}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 12238}
+      Script: {instanceID: 11952}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 13152}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 14774}
+      Script: {instanceID: 12598}
+    - Class: 114
+      Script: {instanceID: 12820}
+    - Class: 114
+      Script: {instanceID: 13180}
+    - Class: 114
+      Script: {instanceID: 13780}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -103,7 +111,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -134,63 +150,51 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11950}
+    - Class: 114
       Script: {instanceID: 11952}
     - Class: 114
       Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11958}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12068}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 12238}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12598}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12820}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12896}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 13180}
     - Class: 114
-      Script: {instanceID: 13006}
+      Script: {instanceID: 13780}
     - Class: 114
-      Script: {instanceID: 13152}
+      Script: {instanceID: 14636}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 14720}
     - Class: 114
-      Script: {instanceID: 14592}
-    - Class: 114
-      Script: {instanceID: 14676}
-    - Class: 114
-      Script: {instanceID: 14774}
-    - Class: 114
-      Script: {instanceID: 15134}
+      Script: {instanceID: 15188}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -213,6 +217,12 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -231,22 +241,28 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
       Hash: f087c23fbfa15475a0d110af46fb0496
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: 0c05f2bfb402def3f0a85a62a2323c7f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: acb9f454660187d2e9256a2ba6fd4f28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowProp
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -277,6 +293,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarBody
+  - hash:
+      serializedVersion: 2
+      Hash: 94f0f7cde49dfd28118762d3b2ff9a0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorPlayableScene
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -315,6 +337,12 @@ ScriptsOnlyBuild:
     className: OculusSpatializerUnity
   - hash:
       serializedVersion: 2
+      Hash: 8634b30629456be6e85f87165db66695
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: GatherResource
+  - hash:
+      serializedVersion: 2
       Hash: e4c511fcf31a39b6e614595be7309046
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -333,6 +361,18 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
+      Hash: 30450454d533878e2ae87e910a270906
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: BucketRouteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 24118cc81db4d16c8bc9410efa8ea066
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IdleThrowTrick
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -349,6 +389,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LocomotionSampleSupport
+  - hash:
+      serializedVersion: 2
+      Hash: 74390bf02d24bc81d5eda0ac2c2341ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperTool
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -471,6 +517,12 @@ ScriptsOnlyBuild:
     className: OculusSettings
   - hash:
       serializedVersion: 2
+      Hash: 5840c475c7548854287b9a4d05092968
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: LiftSMB
+  - hash:
+      serializedVersion: 2
       Hash: b3bb7c40cede9849e7814d6093dcfcea
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -537,10 +589,28 @@ ScriptsOnlyBuild:
     className: OVRAudioSourceTest
   - hash:
       serializedVersion: 2
+      Hash: 6a9a2a8a7726c883b71c53d9451b5139
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolSMB
+  - hash:
+      serializedVersion: 2
+      Hash: f7c256269c251b4d13bad6345002acfc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolSequenceSMB
+  - hash:
+      serializedVersion: 2
       Hash: 574548a369e199ea1d83b5331c5a911b
     assemblyName: Oculus.Platform.dll
     namespaceName: 
     className: RichPresenceSample
+  - hash:
+      serializedVersion: 2
+      Hash: d2d5de2e229a68232888ffd51682862e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowMultipleProps
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -561,7 +631,7 @@ ScriptsOnlyBuild:
     className: TeleportAimHandlerParabolic
   - hash:
       serializedVersion: 2
-      Hash: 3288f0dab14fdc03aa9030248591abf1
+      Hash: c9efe04e7a522811594b1d50d59ab56d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CannonControl
@@ -589,6 +659,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c72cc268bad80a07e0e1a57e9a728bc9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ChangeSpear
   - hash:
       serializedVersion: 2
       Hash: 025866bb53162ac1e71a1b207ceca793
@@ -621,6 +697,12 @@ ScriptsOnlyBuild:
     className: OVRVignette
   - hash:
       serializedVersion: 2
+      Hash: d387195ee8f0fe7099901934136c7bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowHealing
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -637,6 +719,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 349faf5e9c46bb78f3482fb846d666c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowingActionSMB
   - hash:
       serializedVersion: 2
       Hash: 52bcb9c2a78bdd8d98a59e915c346e75
@@ -699,6 +787,12 @@ ScriptsOnlyBuild:
     className: GrabbableCrosshair
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorBillboard
+  - hash:
+      serializedVersion: 2
       Hash: cddda176806387fb79934d7957e07c80
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -757,12 +851,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
     className: AudioManager
-  - hash:
-      serializedVersion: 2
-      Hash: cc4274b586df3c02688bac01b88bd16c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventSystem
   - hash:
       serializedVersion: 2
       Hash: e269129a92a880f5211d20d6b89e9cf1
@@ -855,6 +943,12 @@ ScriptsOnlyBuild:
     className: OVRAutoDestroyInMRC
   - hash:
       serializedVersion: 2
+      Hash: fd4b897e7e023a02d3fc100d08a0f633
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolSMBRemover
+  - hash:
+      serializedVersion: 2
       Hash: 80913a2dbb708e0f503739c081ba230f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -915,6 +1009,12 @@ ScriptsOnlyBuild:
     className: TeleportTargetHandlerPhysical
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorAttackScript
+  - hash:
+      serializedVersion: 2
       Hash: 0498232dd48b097128db9129acff161b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -963,6 +1063,12 @@ ScriptsOnlyBuild:
     className: OvrAvatarSkinnedMeshRenderPBSComponent
   - hash:
       serializedVersion: 2
+      Hash: d387195ee8f0fe7099901934136c7bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowShockwave
+  - hash:
+      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1005,6 +1111,12 @@ ScriptsOnlyBuild:
     className: P2PNetworkBall
   - hash:
       serializedVersion: 2
+      Hash: 3e05fc2b2e8cbfd6f0d1463ff297f894
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: LiftScript
+  - hash:
+      serializedVersion: 2
       Hash: 22dc216204f0e65ce2161bd7b6ecf06b
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -1021,6 +1133,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVRTouchSample
     className: HandPose
+  - hash:
+      serializedVersion: 2
+      Hash: cacb63e2356440e7b61c0c5e7cecce9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: CookingSMB
   - hash:
       serializedVersion: 2
       Hash: f8bdc5302f6dd3ca0d6feb313e913f0a
@@ -1323,6 +1441,12 @@ ScriptsOnlyBuild:
     className: TrackSegment
   - hash:
       serializedVersion: 2
+      Hash: dbe960f66f458a0828e28e41554447cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowNova
+  - hash:
+      serializedVersion: 2
       Hash: a3b5c7ace69ce05da7ac8052564f6656
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1339,6 +1463,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform
     className: PlatformSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ab02b20dbaed1c0de1b95bcc09e5a7dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: AddCastEffect
   - hash:
       serializedVersion: 2
       Hash: a4ab9532686dbd13bc2c5bb58a3781ce
@@ -1497,6 +1627,12 @@ ScriptsOnlyBuild:
     className: OVRMeshRenderer
   - hash:
       serializedVersion: 2
+      Hash: 732870cf3c2144143ba35b589ebabc6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: RunningVillagers
+  - hash:
+      serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEditor.XR.LegacyInputHelpers
@@ -1549,6 +1685,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3ac83d7b7a09187d6e7d389866a9b1c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: CastSpells
   - hash:
       serializedVersion: 2
       Hash: ce638e2dcac0548a4a3e456d5051c131
@@ -1623,6 +1765,12 @@ ScriptsOnlyBuild:
     className: OVRGrabber
   - hash:
       serializedVersion: 2
+      Hash: d387195ee8f0fe7099901934136c7bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowFireball
+  - hash:
+      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -1639,12 +1787,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPPropagationGeometry
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CannonBallDeath
   - hash:
       serializedVersion: 2
       Hash: 0498232dd48b097128db9129acff161b
@@ -1669,6 +1811,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrVoiceChat
     className: VREyeRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c6f6d88c7e1e7ed8625d14e3747ecf03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: BucketRoute
   - hash:
       serializedVersion: 2
       Hash: 0206d628903d330ab486ebffa9dc4292
@@ -1719,6 +1867,12 @@ ScriptsOnlyBuild:
     className: TeleportTargetHandlerNavMesh
   - hash:
       serializedVersion: 2
+      Hash: 24118cc81db4d16c8bc9410efa8ea066
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowBigAxe
+  - hash:
+      serializedVersion: 2
       Hash: 85e8aa29d665952264bc2b39d7dd56b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1735,6 +1889,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolCustomInspector
   - hash:
       serializedVersion: 2
       Hash: 17653b21203f576d6729f3490936652e
@@ -1765,6 +1925,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 28fabd2a02a87206dac9109b02e47204
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: CookingScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1827,6 +1993,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 23c29769536a4c26ce2e0c755d39464a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorUnitScript
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1873,182 +2045,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: acb9f454660187d2e9256a2ba6fd4f28
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowProp
-  - hash:
-      serializedVersion: 2
-      Hash: 94f0f7cde49dfd28118762d3b2ff9a0c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: MeleeWarriorPlayableScene
-  - hash:
-      serializedVersion: 2
-      Hash: 8634b30629456be6e85f87165db66695
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: GatherResource
-  - hash:
-      serializedVersion: 2
-      Hash: 30450454d533878e2ae87e910a270906
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: BucketRouteAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 24118cc81db4d16c8bc9410efa8ea066
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: IdleThrowTrick
-  - hash:
-      serializedVersion: 2
-      Hash: 74390bf02d24bc81d5eda0ac2c2341ef
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: IKHelperTool
-  - hash:
-      serializedVersion: 2
-      Hash: 5840c475c7548854287b9a4d05092968
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: LiftSMB
-  - hash:
-      serializedVersion: 2
-      Hash: 6a9a2a8a7726c883b71c53d9451b5139
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: IKHelperToolSMB
-  - hash:
-      serializedVersion: 2
-      Hash: f7c256269c251b4d13bad6345002acfc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: IKHelperToolSequenceSMB
-  - hash:
-      serializedVersion: 2
-      Hash: d2d5de2e229a68232888ffd51682862e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowMultipleProps
-  - hash:
-      serializedVersion: 2
-      Hash: c72cc268bad80a07e0e1a57e9a728bc9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ChangeSpear
-  - hash:
-      serializedVersion: 2
-      Hash: d387195ee8f0fe7099901934136c7bc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowHealing
-  - hash:
-      serializedVersion: 2
-      Hash: 349faf5e9c46bb78f3482fb846d666c4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowingActionSMB
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: MeleeWarriorBillboard
-  - hash:
-      serializedVersion: 2
-      Hash: fd4b897e7e023a02d3fc100d08a0f633
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: IKHelperToolSMBRemover
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: MeleeWarriorAttackScript
-  - hash:
-      serializedVersion: 2
-      Hash: d387195ee8f0fe7099901934136c7bc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowShockwave
-  - hash:
-      serializedVersion: 2
-      Hash: 3e05fc2b2e8cbfd6f0d1463ff297f894
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: LiftScript
-  - hash:
-      serializedVersion: 2
-      Hash: cacb63e2356440e7b61c0c5e7cecce9d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: CookingSMB
-  - hash:
-      serializedVersion: 2
-      Hash: dbe960f66f458a0828e28e41554447cc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowNova
-  - hash:
-      serializedVersion: 2
-      Hash: ab02b20dbaed1c0de1b95bcc09e5a7dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: AddCastEffect
-  - hash:
-      serializedVersion: 2
-      Hash: 732870cf3c2144143ba35b589ebabc6b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: RunningVillagers
-  - hash:
-      serializedVersion: 2
-      Hash: 3ac83d7b7a09187d6e7d389866a9b1c9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: CastSpells
-  - hash:
-      serializedVersion: 2
-      Hash: d387195ee8f0fe7099901934136c7bc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowFireball
-  - hash:
-      serializedVersion: 2
-      Hash: c6f6d88c7e1e7ed8625d14e3747ecf03
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: BucketRoute
-  - hash:
-      serializedVersion: 2
-      Hash: 24118cc81db4d16c8bc9410efa8ea066
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: ThrowBigAxe
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: IKHelperToolCustomInspector
-  - hash:
-      serializedVersion: 2
-      Hash: 28fabd2a02a87206dac9109b02e47204
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: CookingScript
-  - hash:
-      serializedVersion: 2
-      Hash: 23c29769536a4c26ce2e0c755d39464a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KevinIglesias
-    className: MeleeWarriorUnitScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.0.9/com.Underwalk.CaptainBrycePatrol.apk
+  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.0.9.3/com.Underwalk.CaptainBrycePatrol.apk

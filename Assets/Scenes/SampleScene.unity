@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &538966884 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1622094346469113941, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
+  m_PrefabInstance: {fileID: 2796094877526661009}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +224,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!4 &738258462 stripped
 Transform:
@@ -355,7 +366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1564467439
 PrefabInstance:
@@ -530,6 +541,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 248038828276939291, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
+      propertyPath: APDisplay
+      value: 
+      objectReference: {fileID: 538966884}
+    - target: {fileID: 261226753350892116, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
+      propertyPath: Hax
+      value: 
+      objectReference: {fileID: 8982336200562609095, guid: e4d757adabd49674aadd37770eec40c5, type: 3}
     - target: {fileID: 2796094877412719061, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
       propertyPath: liftForce
       value: 20

@@ -12,6 +12,12 @@ public class TutorialText : MonoBehaviour
     private string pageText;
     [SerializeField] private Text tutorialText;
     private int tutorialCounter = 0;
+    
+
+    void Awake()
+    {
+    
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +25,6 @@ public class TutorialText : MonoBehaviour
         tutorialText.text = "";
         MakeInstructions();
         InvokeRepeating("TutorialTextUpdate",2f, 5f);
-      
-
     }
 
     private void MakeInstructions()
@@ -35,10 +39,11 @@ public class TutorialText : MonoBehaviour
         Instructions.Add("To look around... look around");
         Instructions.Add("Use the Left Control Stick to Move forward and back, and turn");
         Instructions.Add("Use the Right Grip to Lift up");
-        Instructions.Add("Use the Left Grip to Lower Down (If gravity isnt fast enough for you)");
+        Instructions.Add("Use the Left Grip to Lower Down \n(If gravity isnt fast enough for you)");
         Instructions.Add("Use the right Control Stick to Aim the Cannon");
-        Instructions.Add("Use the right trigger to fire Greenaga!");
-        Instructions.Add("Hope you got that... entering the test sim!");
+        Instructions.Add("Use the right trigger to fire some Hax");
+        Instructions.Add("Use the A Button to cycle through Hax");
+        Instructions.Add("Hope you got that...\n entering the test sim!");
     }
 
     // Update is called once per frame
