@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - CannonControl
     - ONSPSettings
     - PlayerControl
+    - TutorialText
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -176,6 +177,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12820}
     - Class: 114
       Script: {instanceID: 12896}
+    - Class: 114
+      Script: {instanceID: 13032}
     - Class: 114
       Script: {instanceID: 13180}
     - Class: 114
@@ -2049,4 +2052,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.0.9.3/com.Underwalk.CaptainBrycePatrol.apk
+  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.0.9.4/com.Underwalk.CaptainBrycePatrol.apk

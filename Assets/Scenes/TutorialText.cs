@@ -34,7 +34,7 @@ public class TutorialText : MonoBehaviour
         Instructions.Add("An Arcaxer Fangame");
         Instructions.Add("Featuring the Adventures of Captain Bryce");
         Instructions.Add("This is in Super Beta Right Now");
-        Instructions.Add("But you can Fly and Shoot Stuff");
+        Instructions.Add("But you can Fly and Shoot Hax from the Cannon");
         Instructions.Add("Ready for Instructions? Feel free to test them out as we go.");
         Instructions.Add("To look around... look around");
         Instructions.Add("Use the Left Control Stick to Move forward and back, and turn");
@@ -42,7 +42,9 @@ public class TutorialText : MonoBehaviour
         Instructions.Add("Use the Left Grip to Lower Down \n(If gravity isnt fast enough for you)");
         Instructions.Add("Use the right Control Stick to Aim the Cannon");
         Instructions.Add("Use the right trigger to fire some Hax");
-        Instructions.Add("Use the A Button to cycle through Hax");
+        Instructions.Add("Use the A Button to cycle through Hax \nYour Active Hax is on the Bow Display");
+        Instructions.Add("You need AP to fire Hax. \nYour available AP is on the botton left of the Bow Display");
+        Instructions.Add("Some Hax give you more AP when they are active. Cool right?");
         Instructions.Add("Hope you got that...\n entering the test sim!");
     }
 

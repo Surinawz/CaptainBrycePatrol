@@ -148,6 +148,7 @@ MonoBehaviour:
   firePower: 3000
   shotPos: {fileID: 248038830088803103}
   HaxChoice: {fileID: 4156828870075875450}
+  APDisplay: {fileID: 1622094346469113941}
 --- !u!1 &248038829067904187
 GameObject:
   m_ObjectHideFlags: 0
