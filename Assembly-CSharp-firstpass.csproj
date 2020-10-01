@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7F752987-348E-4092-60B6-C679414156C6}</ProjectGuid>
+    <ProjectGuid>{22C88FCD-7129-83A1-B999-20C12F9EADE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -645,23 +645,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{F3CAC217-85BB-585A-2F60-2746B669B86A}</Project>
+      <Project>{CDBE278F-BB81-429B-6967-832DB0FB9138}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{D61D274C-99CF-BC3D-B37E-DA160FD6C811}</Project>
+      <Project>{E106B148-C8DB-2263-75C3-5E00B7ACA9FC}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{85EED988-A97E-5D04-02BD-BB36CB4D330B}</Project>
+      <Project>{8FDC3AAC-3E89-4DBC-048C-786169999734}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{95F0C557-0293-0242-0102-F91F35D2099B}</Project>
+      <Project>{1B6C6128-0571-2EF2-25FA-DEC3EFC360D3}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{A31E5DF7-DE92-2EB2-555C-EE3B830D29C5}</Project>
+      <Project>{36589148-0217-3B31-8A06-1830C483A7E8}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>

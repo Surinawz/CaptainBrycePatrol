@@ -137,13 +137,16 @@ MonoBehaviour:
     - Assets/AllSkyFree/NewLayer.terrainlayer
     - Assets/AllSkyFree/NewLayer.terrainlayer.meta
     - Assets/Bryce Boat.meta
-    - Assets/Bryce Boat/BryceBoat.prefab
-    - Assets/Bryce Boat/BryceBoat.prefab.meta
-    - Assets/Bryce Boat/CannonBall.prefab
-    - Assets/Bryce Boat/CannonBall.prefab.meta
     - Assets/Bryce Boat/Images.meta
+    - Assets/Bryce Boat/Images/Materials.meta
+    - Assets/Bryce Boat/Images/Materials/UnderwalkLogo.mat
+    - Assets/Bryce Boat/Images/Materials/UnderwalkLogo.mat.meta
+    - Assets/Bryce Boat/Images/Materials/UnderwalkLogo_But_more_GREEN 1.mat
+    - Assets/Bryce Boat/Images/Materials/UnderwalkLogo_But_more_GREEN 1.mat.meta
     - Assets/Bryce Boat/Images/UnderwalkLogo.png
     - Assets/Bryce Boat/Images/UnderwalkLogo.png.meta
+    - Assets/Bryce Boat/Images/UnderwalkLogo_But_more_GREEN 1.png
+    - Assets/Bryce Boat/Images/UnderwalkLogo_But_more_GREEN 1.png.meta
     - Assets/Bryce Boat/Images/Wall_wood.png
     - Assets/Bryce Boat/Images/Wall_wood.png.meta
     - Assets/Bryce Boat/Materials.meta
@@ -162,6 +165,11 @@ MonoBehaviour:
     - Assets/Bryce Boat/Materials/Wall_wood.mat.meta
     - Assets/Bryce Boat/Materials/blackbrick.png
     - Assets/Bryce Boat/Materials/blackbrick.png.meta
+    - Assets/Bryce Boat/Prefabs.meta
+    - Assets/Bryce Boat/Prefabs/BryceBoat.prefab
+    - Assets/Bryce Boat/Prefabs/BryceBoat.prefab.meta
+    - Assets/Bryce Boat/Prefabs/CannonBall.prefab
+    - Assets/Bryce Boat/Prefabs/CannonBall.prefab.meta
     - Assets/Bryce Boat/Scripts.meta
     - Assets/Bryce Boat/Scripts/CannonBallDeath.cs
     - Assets/Bryce Boat/Scripts/CannonBallDeath.cs.meta
@@ -169,33 +177,2141 @@ MonoBehaviour:
     - Assets/Bryce Boat/Scripts/CannonControl.cs.meta
     - Assets/Bryce Boat/Scripts/PlayerControl.cs
     - Assets/Bryce Boat/Scripts/PlayerControl.cs.meta
-    - Assets/Dino-Boat.meta
-    - Assets/Dino-Boat/Materials.meta
-    - Assets/Dino-Boat/Materials/Plank.mat
-    - Assets/Dino-Boat/Materials/Plank.mat.meta
-    - Assets/Dino-Boat/Materials/UnderwalkLogo (But more GREEN).mat
-    - Assets/Dino-Boat/Materials/UnderwalkLogo (But more GREEN).mat.meta
-    - Assets/Dino-Boat/Materials/UnderwalkLogo.mat
-    - Assets/Dino-Boat/Materials/UnderwalkLogo.mat.meta
-    - Assets/Dino-Boat/Materials/blackbrick.mat
-    - Assets/Dino-Boat/Materials/blackbrick.mat.meta
-    - Assets/Dino-Boat/Plank.png
-    - Assets/Dino-Boat/Plank.png.meta
-    - Assets/Dino-Boat/Scenes.meta
-    - Assets/Dino-Boat/Scenes/SampleScene.unity
-    - Assets/Dino-Boat/Scenes/SampleScene.unity.meta
-    - Assets/Dino-Boat/Ship.prefab
-    - Assets/Dino-Boat/Ship.prefab.meta
-    - Assets/Dino-Boat/UnderwalkLogo (But more GREEN).png
-    - Assets/Dino-Boat/UnderwalkLogo (But more GREEN).png.meta
-    - Assets/Dino-Boat/UnderwalkLogo.png
-    - Assets/Dino-Boat/UnderwalkLogo.png.meta
-    - Assets/Dino-Boat/ship build.unity
-    - Assets/Dino-Boat/ship build.unity.meta
-    - Assets/New Terrain 1.asset
-    - Assets/New Terrain 1.asset.meta
-    - Assets/New Terrain.asset
-    - Assets/New Terrain.asset.meta
+    - Assets/Kevin Iglesias.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Cheer01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Cheer01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Clap01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Clap01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Backwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Backwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Backwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Backwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Forwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Forwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Forwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Forwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Forwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Forwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      -Idle.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Crouch01
+      -Idle.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Falling01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Falling01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Idles.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Idles.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Jump01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Jump01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Opening-Looting.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Opening-Looting.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run
+      And Roll.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run
+      And Roll.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Backwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Backwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Backwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Backwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Forwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Forwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Forwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Forwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Forwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Forwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SetMed.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SetMed.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@ShuffleLeft01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@ShuffleLeft01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@ShuffleRight01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@ShuffleRight01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SitGround.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SitGround.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SitHigh.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SitHigh.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SitLow.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@SitLow.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Skid01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Skid01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Skid02.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Skid02.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Backwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Backwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Backwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Backwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Forwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Forwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Forwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Forwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01-
+      Forwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint01-
+      Forwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Backwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Backwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Backwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Backwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Downwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Downwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Drown.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Drown.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Drowned.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Drowned.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Forwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Forwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Forwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Forwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Forwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Forwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Idle.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Idle.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Upwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Swim01
+      - Upwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Talk01
+      - Common.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Talk01
+      - Common.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Talk02
+      - Question.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Talk02
+      - Question.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Talk03
+      - Exclamation.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Talk03
+      - Exclamation.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@TurnLeft01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@TurnLeft01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@TurnRight01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@TurnRight01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Backwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Backwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Backwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Backwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Forwards Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Forwards Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Forwards Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Forwards Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Forwards.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Forwards.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Left.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Right.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Wave01.controller
+    - Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Wave01.controller.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Cheer01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Cheer01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Clap01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Clap01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Crouch01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Crouch01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01
+      [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01
+      [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01_ClosedHands
+      [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01_ClosedHands
+      [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01_ClosedHands.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@CrouchWalk01_ClosedHands.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Fall01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Fall01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@HandWave01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@HandWave01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01 - Idle02.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01 - Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02 - Idle01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02 - Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Jump01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Jump01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Jump01_ClosedHands.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Jump01_ClosedHands.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@LandRoll01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@LandRoll01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Loot01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Loot01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Opening01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Opening01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01 [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01 [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01_ClosedHands
+      [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01_ClosedHands
+      [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01_ClosedHands.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01_ClosedHands.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunSkidStop01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunSkidStop01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunSkidStop02.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunSkidStop02.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunTurn01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunTurn01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunTurnSharp01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunTurnSharp01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Shuffle01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Shuffle01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitGround01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitGround01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitHigh01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitHigh01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitLow01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitLow01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitMed01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SitMed01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Sprint01 [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Sprint01 [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Sprint01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Sprint01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Swim01 [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Swim01 [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Swim01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Swim01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SwimDrown01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SwimDrown01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SwimIdle01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@SwimIdle01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Talk01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Talk01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Turn01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Turn01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01 [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01 [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01_ClosedHands
+      [RootMotion].fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01_ClosedHands
+      [RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01_ClosedHands.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01_ClosedHands.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Basic Motions Pack - Scene.unity
+    - Assets/Kevin Iglesias/Basic Motions Pack/Basic Motions Pack - Scene.unity.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Materials.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Materials/Basic Motions Floor.mat
+    - Assets/Kevin Iglesias/Basic Motions Pack/Materials/Basic Motions Floor.mat.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Materials/Basic Motions Material.mat
+    - Assets/Kevin Iglesias/Basic Motions Pack/Materials/Basic Motions Material.mat.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Models.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Models/Basic Motions Dummy.fbx
+    - Assets/Kevin Iglesias/Basic Motions Pack/Models/Basic Motions Dummy.fbx.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy.prefab
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy.prefab.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/HighChair.prefab
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/HighChair.prefab.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/LowChair.prefab
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/LowChair.prefab.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/MedChair.prefab
+    - Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/MedChair.prefab.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Textures.meta
+    - Assets/Kevin Iglesias/Basic Motions Pack/Textures/BasicMotionsTexture.png
+    - Assets/Kevin Iglesias/Basic Motions Pack/Textures/BasicMotionsTexture.png.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack01.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack01.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack02.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack02.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack03.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack03.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack04
+      - 01.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack04
+      - 01.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack04
+      - 02.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack04
+      - 02.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack05.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack05.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack06.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Attack06.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Block.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Block.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@CombatIdle.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@CombatIdle.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Combo
+      - Attack01-02.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Combo
+      - Attack01-02.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Death01.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Death01.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Death02.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Death02.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Dodge.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Dodge.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Idles.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Idles.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Jump.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Jump.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@ReceiveDamage.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@ReceiveDamage.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - BackwardsLeft.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - BackwardsLeft.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - BackwardsRight.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - BackwardsRight.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Forward.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Forward.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - ForwardLeft.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - ForwardLeft.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - ForwardRight.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - ForwardRight.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Left.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Right.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Run01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - BackwardsLeft.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - BackwardsLeft.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - BackwardsRight.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - BackwardsRight.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Forward.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Forward.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - ForwardLeft.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - ForwardLeft.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - ForwardRight.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - ForwardRight.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Left.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Right.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Sprint01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Backwards.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Backwards.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - BackwardsLeft.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - BackwardsLeft.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - BackwardsRight.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - BackwardsRight.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Forward.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Forward.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - ForwardLeft.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - ForwardLeft.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - ForwardRight.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - ForwardRight.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Left.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Left.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Right.controller
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/AnimationControllers/Mage@Walk01
+      - Right.controller.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack01.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack01.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack02.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack02.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack03.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack03.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack04.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack04.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack05.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack05.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack06.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Attack06.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Block.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Block.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@CombatIdle.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@CombatIdle.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Damage.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Damage.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Death.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Death.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Dodge.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Dodge.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Idle.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Idle.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Jump.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Jump.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Run01.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Run01.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Sprint01.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Sprint01.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Walk01.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Animations/Mage@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Caster Mage Animations Pack
+      - Scene.unity
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Caster Mage Animations Pack
+      - Scene.unity.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Materials.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Materials/CasterMageMaterial.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Materials/CasterMageMaterial.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Models.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Models/Caster Mage Model.fbx
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Models/Caster Mage Model.fbx.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack01-02
+      Combo.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack01-02
+      Combo.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack01.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack01.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack02.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack02.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack03.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack03.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack04
+      -01.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack04
+      -01.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack04
+      -02.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack04
+      -02.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack05.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack05.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack06.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Attack06.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Block.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Block.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/CombatIdle.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/CombatIdle.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Damage.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Damage.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Death01.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Death01.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Death02.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Death02.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Dodge.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Dodge.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Idle.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Idle.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Jump.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Jump.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Backwards Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Backwards Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Backwards Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Backwards Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Backwards.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Backwards.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Forward Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Forward Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Forward Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Forward Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Forward.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Forward.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Run
+      Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Backwards Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Backwards Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Backwards Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Backwards Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Backwards.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Backwards.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Forward Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Forward Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Forward Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Forward Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Forward.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Forward.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Sprint
+      Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Backwards Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Backwards Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Backwards Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Backwards Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Backwards.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Backwards.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Forward Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Forward Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Forward Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Forward Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Forward.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Forward.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Left.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Left.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Right.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Mage Casters/Walk
+      Right.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/Fireball.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/Fireball.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/Fireball.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/Fireball.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/FireballCastEffect.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/FireballCastEffect.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/FireballParticle.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/FireballParticle.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/FireballParticleHands.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Fireball/FireballParticleHands.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/Heal.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/Heal.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/HealingCastEffect.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/HealingCastEffect.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/HealingParticle.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/HealingParticle.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/HealingParticleHands.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Healing/HealingParticleHands.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleNova.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleNova.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleNova.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleNova.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleNovaCastEffect.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleNovaCastEffect.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleParticleHands.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/PurpleParticleHands.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/RedNova.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/RedNova.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/RedNova.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Nova/RedNova.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shield.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shield/Shield.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shield/Shield.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shield/Shield.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shield/Shield.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/GroundTexture.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/GroundTexture.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/Shockwave.prefab
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/Shockwave.prefab.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/ShockwaveGroundTexture.png
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/ShockwaveGroundTexture.png.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/ShockwaveParticles.mat
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Prefabs/Spells/Shockwave/ShockwaveParticles.mat.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/AddCastEffect.cs
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/AddCastEffect.cs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/CastSpells.cs
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/CastSpells.cs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowFireball.cs
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowFireball.cs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowHealing.cs
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowHealing.cs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowNova.cs
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowNova.cs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowShockwave.cs
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Scripts/ThrowShockwave.cs.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Textures.meta
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Textures/CasterMageTexture.png
+    - Assets/Kevin Iglesias/Caster Mage Animations Pack/Textures/CasterMageTexture.png.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance01.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance01.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance02.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance02.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance03.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance03.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance04.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance04.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance05.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance05.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance06.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance06.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance07.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance07.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance08.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance08.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance09.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance09.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance10.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance10.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance11.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance11.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance12.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance12.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance13.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance13.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance14.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance14.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance15.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance15.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance16.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance16.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance17.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance17.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance18.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance18.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance19.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance19.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance20.controller
+    - Assets/Kevin Iglesias/Dance Animations Pack/AnimationControllers/DancePack@Dance20.controller.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance01.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance01.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance02.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance02.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance03.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance03.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance04.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance04.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance05.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance05.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance06.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance06.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance07.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance07.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance08.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance08.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance09.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance09.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance10.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance10.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance11.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance11.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance12.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance12.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance13.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance13.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance14.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance14.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance15.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance15.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance16.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance16.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance17.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance17.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance18.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance18.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance19.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance19.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance20.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance20.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Idle01.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Dance Animations Pack - Example
+      Scene.unity
+    - Assets/Kevin Iglesias/Dance Animations Pack/Dance Animations Pack - Example
+      Scene.unity.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Materials.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Materials/DanceAnimationsPack.mat
+    - Assets/Kevin Iglesias/Dance Animations Pack/Materials/DanceAnimationsPack.mat.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Models.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Models/Female Dancer Dummy.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Models/Female Dancer Dummy.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Models/Male Dancer Dummy.fbx
+    - Assets/Kevin Iglesias/Dance Animations Pack/Models/Male Dancer Dummy.fbx.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 01.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 01.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 02.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 02.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 03.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 03.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 04.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 04.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 05.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 05.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 06.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 06.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 07.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 07.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 08.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 08.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 09.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 09.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 10.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 10.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 11.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 11.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 12.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 12.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 13.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 13.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 14.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 14.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 15.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 15.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 16.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 16.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 17.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 17.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 18.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 18.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 19.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 19.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 20.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Female Dancer Dummy 20.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 01.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 01.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 02.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 02.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 03.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 03.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 04.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 04.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 05.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 05.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 06.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 06.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 07.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 07.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 08.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 08.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 09.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 09.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 10.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 10.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 11.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 11.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 12.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 12.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 13.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 13.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 14.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 14.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 15.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 15.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 16.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 16.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 17.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 17.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 18.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 18.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 19.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 19.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 20.prefab
+    - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 20.prefab.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Textures.meta
+    - Assets/Kevin Iglesias/Dance Animations Pack/Textures/DanceTextures.png
+    - Assets/Kevin Iglesias/Dance Animations Pack/Textures/DanceTextures.png.meta
+    - Assets/Kevin Iglesias/IKHelperTool.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Documentation.pdf
+    - Assets/Kevin Iglesias/IKHelperTool/Documentation.pdf.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Rifle Idle.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Rifle Idle.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Sword Attack.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Sword Attack.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Sword Idle.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Sword Idle.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Warhammer Idle01.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Warhammer Idle01.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Warhammer Idle02.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/2H Warhammer Idle02.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/MiningAnimation.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/MiningAnimation.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/Shockwave Attack.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Animations/Shockwave Attack.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - 2H Rifle.controller
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - 2H Rifle.controller.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - 2H Sword.controller
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - 2H Sword.controller.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - 2H Warhammer.controller
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - 2H Warhammer.controller.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - Mining.controller
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IKHelperTool
+      - Mining.controller.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IkHelperTool
+      - Shockwave.controller
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/AnimatorControllers/IkHelperTool
+      - Shockwave.controller.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/IKHelperTool - Example Scene.unity
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/IKHelperTool - Example Scene.unity.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Materials.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Materials/IKHelperTool Material.mat
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Materials/IKHelperTool Material.mat.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/2H Rifle.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/2H Rifle.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/2H Sword.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/2H Sword.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/2H Warhammer.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/2H Warhammer.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/Dwarf Character.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/Dwarf Character.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/Human Character.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/Human Character.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/Pickaxe.fbx
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Models/Pickaxe.fbx.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf - Rifle.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf - Rifle.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf - Shockwave.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf - Shockwave.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf - Warhammer.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf - Warhammer.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf 2H Sword.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf 2H Sword.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf Pickaxe.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Dwarf Pickaxe.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Human 2H Sword.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/IK Human 2H Sword.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf - Rifle.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf - Rifle.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf - Shockwave.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf - Shockwave.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf - Warhammer.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf - Warhammer.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf 2H Sword.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf 2H Sword.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf Pickaxe.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Dwarf Pickaxe.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Human 2H Sword.prefab
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Prefabs/No IK Human 2H Sword.prefab.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Textures.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Textures/IKHelperTexture.png
+    - Assets/Kevin Iglesias/IKHelperTool/Example Scene/Textures/IKHelperTexture.png.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperTool.cs
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperTool.cs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolCustomInspector.cs
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolCustomInspector.cs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolSMB.cs
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolSMB.cs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolSMBRemover.cs
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolSMBRemover.cs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolSequenceSMB.cs
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolSequenceSMB.cs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolUtils.cs
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/IKHelperToolUtils.cs.meta
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/OldVersion.zip
+    - Assets/Kevin Iglesias/IKHelperTool/Scripts/OldVersion.zip.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Attack01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Attack01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Attack02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Attack02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Damage01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Damage02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Death01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Idle01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Parry01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Parry01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@ParryHit01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@ParryHit01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Walk01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/DualWieldWarrior@Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Attack01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Attack01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Attack02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Attack02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Damage01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Damage02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Death01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Idle01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Parry01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Parry01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@ParryHit01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@ParryHit01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Walk01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/MaceWarrior@Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Attack01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Attack01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Attack02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Attack02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Block01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Block01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@BlockHit01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@BlockHit01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Damage01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Damage02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Death01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Idle01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Walk01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/ShieldWarrior@Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Attack01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Attack01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Attack02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Attack02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Damage01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Damage02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Death01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Idle01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Parry01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Parry01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@ParryHit01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@ParryHit01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Walk01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/SpearWarrior@Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Attack01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Attack01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Attack02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Attack02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Damage01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Damage02.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Death01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Idle01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Parry01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Parry01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@ParryHit01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@ParryHit01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Walk01.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Animations/TwoHandedWarrior@Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Attack01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Attack01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Attack02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Attack02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Damage01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Damage01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Damage02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Damage02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Death01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Death01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Idle01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Idle01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_ParryHit01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_ParryHit01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Parrying01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Parrying01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Walk01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/DualWieldWarrior/DualWieldWarrior_Walk01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Attack01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Attack01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Attack02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Attack02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Damage01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Damage01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Damage02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Damage02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Death01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Death01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Idle01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Idle01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_ParryHit01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_ParryHit01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Parrying01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Parrying01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Walk01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/MaceWarrior/MaceWarrior_Walk01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Attack01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Attack01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Attack02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Attack02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_BlockHit01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_BlockHit01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Blocking01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Blocking01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Damage01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Damage01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Damage02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Damage02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Death01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Death01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Idle01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Idle01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Walk01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/ShieldWarrior/ShieldWarrior_Walk01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Attack01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Attack01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Attack02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Attack02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Damage01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Damage01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Damage02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Damage02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Death01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Death01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Idle01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Idle01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_ParryHit01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_ParryHit01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Parrying01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Parrying01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Walk01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/SpearWarrior/SpearWarrior_Walk01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Attack01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Attack01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Attack02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Attack02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Damage01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Damage01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Damage02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Damage02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Death01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Death01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Idle01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Idle01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_ParryHit02.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_ParryHit02.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Parrying01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Parrying01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Walk01.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Demo
+      Scene Controllers/TwoHandedSwordWarrior/TwoHandedSwordWarrior_Walk01.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Dual Wield Warrior.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Dual Wield Warrior.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Mace Warrior.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Mace Warrior.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Shield Warrior.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Shield Warrior.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Spear Warrior.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Spear Warrior.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Two-handed Warrior.controller
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/AnimatorControllers/Playable
+      Scene Controllers/Two-handed Warrior.controller.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Demo Scene.unity
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Demo Scene.unity.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Materials.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Materials/MeleeWarriorMaterial.mat
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Materials/MeleeWarriorMaterial.mat.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Characters.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Characters/Dwarf
+      Melee Warrior.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Characters/Dwarf
+      Melee Warrior.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Characters/Human
+      Melee Warrior.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Characters/Human
+      Melee Warrior.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Other.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Other/MeleeWarrior_Ground.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Other/MeleeWarrior_Ground.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarrior1HSword.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarrior1HSword.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarrior2HSword.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarrior2HSword.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarriorMace.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarriorMace.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarriorShield.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarriorShield.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarriorSpear.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Models/Weapons/MeleeWarriorSpear.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Buildings.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Buildings/MeleeWarrior_Barracks.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Buildings/MeleeWarrior_Barracks.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other/MeleeWarrior_BlueFlag.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other/MeleeWarrior_BlueFlag.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other/MeleeWarrior_RedFlag.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other/MeleeWarrior_RedFlag.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other/MeleeWarrior_Selection.fbx
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Models/Other/MeleeWarrior_Selection.fbx.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Playable
+      Melee Warrior Example Scene.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Playable
+      Melee Warrior Example Scene.unity
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Playable
+      Melee Warrior Example Scene.unity.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Playable
+      Melee Warrior Example Scene/NavMesh.asset
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Playable
+      Melee Warrior Example Scene/NavMesh.asset.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_BlueFlag.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_BlueFlag.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_HealthBarFrame.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_HealthBarFrame.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_RedFlag.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_RedFlag.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_Selection.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scene
+      Prefabs/MeleeWarrior_Selection.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorAttackScript.cs
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorAttackScript.cs.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorBillboard.cs
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorBillboard.cs.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorPlayableScene.cs
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorPlayableScene.cs.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorUnitScript.cs
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Scripts/MeleeWarriorUnitScript.cs.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_AttackCursor.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_AttackCursor.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_Bar.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_Bar.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_BarracksIcons.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_BarracksIcons.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_Cursor.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_Cursor.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_IconsUI.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_IconsUI.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_PointerClick.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_PointerClick.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_UnitIcons.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Playable Example Scene/Sprites/MeleeWarrior_UnitIcons.png.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_DualWieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_DualWieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_MaceWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_MaceWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_ShieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_ShieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_SpearWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_SpearWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_TwoHandedWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Blue/BlueDwarf_TwoHandedWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_DualWieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_DualWieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_MaceWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_MaceWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_ShieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_ShieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_SpearWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_SpearWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_TwoHandedWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/Red/RedDwarf_TwoHandedWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_DualWieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_DualWieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_MaceWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_MaceWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_ShieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_ShieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_SpearWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_SpearWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_TwoHandedWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Dwarf Warriors/White/WhiteDwarf_TwoHandedWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_DualWieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_DualWieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_MaceWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_MaceWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_ShieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_ShieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_SpearWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_SpearWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_TwoHandedWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Blue/BlueHuman_TwoHandedWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_DualWieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_DualWieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_MaceWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_MaceWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_ShieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_ShieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_SpearWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_SpearWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_TwoHandedWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/Red/RedHuman_TwoHandedWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_DualWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_DualWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_MaceWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_MaceWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_ShieldWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_ShieldWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_SpearWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_SpearWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_TwoHandedWarrior.prefab
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Prefabs/Human Warriors/White/WhiteHuman_TwoHandedWarrior.prefab.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Textures.meta
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Textures/MeleeWarriorTexture.png
+    - Assets/Kevin Iglesias/Melee Warrior Animations Pack/Textures/MeleeWarriorTexture.png.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Damage01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Damage02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Death01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Death02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Death02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle01-Idle02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle01-Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle01_Action01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle01_Action01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle02-Action01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle02-Action01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@SpearChange01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@SpearChange01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@SpearThrow01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@SpearThrow01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@SpearThrow02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@SpearThrow02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@TakeProp01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@TakeProp01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@TakeProp02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@TakeProp02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw01.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw01.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw02.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw02.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw03.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw03.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw04
+      - Hold.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw04
+      - Hold.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw04.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Animations/Throwing@Throw04.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ChangeSpear.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ChangeSpear.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Death01.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Death01.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Death02.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Death02.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Idles.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Idles.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ReceiveDamage.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ReceiveDamage.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw01.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw01.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw02.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw02.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw03.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw03.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw04.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@Throw04.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ThrowSpear01.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ThrowSpear01.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ThrowSpear02.controller
+    - Assets/Kevin Iglesias/Throwing Animations Pack/AnimatorControllers/Throwing@ThrowSpear02.controller.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Materials.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Materials/ThrowingFloor.mat
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Materials/ThrowingFloor.mat.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Materials/ThrowingTexture.mat
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Materials/ThrowingTexture.mat.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@BigAxe.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@BigAxe.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Javelin.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Javelin.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Knife.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Knife.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Tomahawk.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Tomahawk.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/ThrowerDummy.fbx
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/ThrowerDummy.fbx.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/ThrowerHeadbandMask.mask
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Models/ThrowerHeadbandMask.mask.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Floor.prefab
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Floor.prefab.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@BigAxe.prefab
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@BigAxe.prefab.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Javelin.prefab
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Javelin.prefab.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Knife.prefab
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Knife.prefab.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Tomahawk.prefab
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Tomahawk.prefab.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/ThrowerDummy.prefab
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/ThrowerDummy.prefab.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ChangeSpear.cs
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ChangeSpear.cs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/IdleThrowTrick.cs
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/IdleThrowTrick.cs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowBigAxe.cs
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowBigAxe.cs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowMultipleProps.cs
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowMultipleProps.cs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowProp.cs
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowProp.cs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowingActionSMB.cs
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Scripts/ThrowingActionSMB.cs.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Textures.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Textures/Floor.png
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Textures/Floor.png.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Textures/ThrowingTexture.png
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Textures/ThrowingTexture.png.meta
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Throwing Pack - Demo Scene.unity
+    - Assets/Kevin Iglesias/Throwing Animations Pack/Throwing Pack - Demo Scene.unity.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Alchemy01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Alchemy01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Chopping01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Chopping01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Chopping02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Chopping02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Axe-Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Buckets.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Buckets.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Drop01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Drop01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Lift01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Lift01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Run01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Run01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Run01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Run01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Carrying-Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Drop01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Drop01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Lift01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Lift01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Run01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Run01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Run01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Run01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@CarryingHeavy-Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Cooking01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Cooking01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Cooking02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Cooking02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Cooking03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Cooking03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Damage01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Damage01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Damage02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Damage02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death02[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Death02[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Idle02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk02[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Walk02[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Working01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Farm-Working01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing04.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Fishing04.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Gathering01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Gathering01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Gathering02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Gathering02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Gathering03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Gathering03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working04.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working04.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working05.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Hammer-Working05.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Idle02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Idle03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Idle03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Run01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Run01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Run01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Run01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@HandsClosed-Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Idle02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Idle02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Idle03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Idle03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Idle01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Idle01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Mining01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Mining01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Mining02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Mining02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Mining03.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Mining03.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Pickaxe-Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Sack.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Sack.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Sawing01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Sawing01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Sawing02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Sawing02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Shovel.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Shovel.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Skinning01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Skinning01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@ToolRightHand-Run01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@ToolRightHand-Run01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@ToolRightHand-Run01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@ToolRightHand-Run01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Walk01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Walk01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Walk01[RootMotion].fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@Walk01[RootMotion].fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@WateringCan.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Animations/Villager@WateringCan.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Alchemy01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Alchemy01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Blacksmith01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Blacksmith01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-BucketWorker01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-BucketWorker01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-BucketWorker02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-BucketWorker02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Cooking01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Cooking01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Digger01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Digger01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Digger02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Digger02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Fishing01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Fishing01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-GatheringBerries01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-GatheringBerries01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-GatheringBerries02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-GatheringBerries02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-GatheringBerries03.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-GatheringBerries03.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Lift01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Lift01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-LiftHeavy01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-LiftHeavy01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Miner01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Miner01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Miner02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Miner02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Miner03.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Miner03.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running03.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running03.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running04.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Running04.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Sawing01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Sawing01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Sawing02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Sawing02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Sawing03.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Sawing03.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Seeding01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Seeding01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Seeding02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Seeding02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Seeding03.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Seeding03.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Skinning01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Skinning01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Skinning02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-Skinning02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WateringPlant01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WateringPlant01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WateringPlant02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WateringPlant02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingAxe01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingAxe01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingFarm01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingFarm01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer02.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer02.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer03.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer03.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer04.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingHammer04.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingPickaxe01.controller
+    - Assets/Kevin Iglesias/Villager Animations Pack/AnimatorControllers/Villager-WorkingPickaxe01.controller.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/BucketRoute.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/BucketRoute.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/BucketRouteAnimator.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/BucketRouteAnimator.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/CookingSMB.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/CookingSMB.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/CookingScript.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/CookingScript.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/GatherResource.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/GatherResource.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/LiftSMB.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/LiftSMB.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/LiftScript.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/LiftScript.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/RunningVillagers.cs
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Scripts/RunningVillagers.cs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.0 - Dwarf.unity
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.0 - Dwarf.unity.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.0 - Human.unity
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.0 - Human.unity.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.1.unity
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.1.unity.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.2.unity
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.2.unity.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.3.unity
+    - Assets/Kevin Iglesias/Villager Animations Pack/Example Scene/Villager Example
+      Scene 1.3.unity.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Materials.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Materials/VillagerMaterial.mat
+    - Assets/Kevin Iglesias/Villager Animations Pack/Materials/VillagerMaterial.mat.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Buildings.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Buildings/BuildingCamp.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Buildings/BuildingCamp.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Buildings/ResourceCamp.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Buildings/ResourceCamp.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Characters.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Characters/VillagerDwarf.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Characters/VillagerDwarf.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Characters/VillagerHuman.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Characters/VillagerHuman.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Anvil.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Anvil.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/BearSkin.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/BearSkin.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/BerryBushes.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/BerryBushes.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Cauldron.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Cauldron.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Dirt.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Dirt.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/FallenTree.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/FallenTree.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Farm.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Farm.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/FarmRow.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/FarmRow.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/GoldOre.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/GoldOre.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Ground.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Ground.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/LogPile.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/LogPile.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/LogPileLarge.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/LogPileLarge.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/LogPileLong.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/LogPileLong.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Plant.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Plant.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/RockOre.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/RockOre.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Sword.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Sword.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Table.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Table.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Tree.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Tree.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Water.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Other/Water.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerAxe.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerAxe.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerBasket.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerBasket.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerBucket.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerBucket.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerFishingPole.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerFishingPole.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerHammer.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerHammer.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerKnife.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerKnife.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerPickaxe.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerPickaxe.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerPlow.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerPlow.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerRod.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerRod.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSack.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSack.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSalt.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSalt.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSaw01.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSaw01.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSaw02.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSaw02.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerShovel.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerShovel.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSpoon.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerSpoon.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerTube.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerTube.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerWateringCan.fbx
+    - Assets/Kevin Iglesias/Villager Animations Pack/Models/Tools/VillagerWateringCan.fbx.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Builder.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Builder.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - CarryingBucket01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - CarryingBucket01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Digger01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Digger01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Digger02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Digger02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Farmer01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Farmer01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Forager.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Forager.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Gardener01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Gardener01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Gardener02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Gardener02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Lumberjack.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Lumberjack.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Miner01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Miner01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Miner02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Miner02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Seeder01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Seeder01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Seeder02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Seeder02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Seeder03.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Dwarf Villagers/Dwarf
+      Villager - Seeder03.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Blacksmith01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Blacksmith01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Builder01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Builder01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - CarryingBucket01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - CarryingBucket01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Digger01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Digger01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Digger02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Digger02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Farmer01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Farmer01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Fisherman01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Fisherman01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Forager01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Forager01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Forager02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Forager02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Gardener01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Gardener01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Gardener02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Gardener02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Lumberjack01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Lumberjack01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Miner01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Miner01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Miner02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Miner02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Miner03.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Miner03.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Repairman01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Repairman01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Repairman02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Repairman02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Repairman03.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Repairman03.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner03.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner03.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner04.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Runner04.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Seeder01.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Seeder01.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Seeder02.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Seeder02.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Seeder03.prefab
+    - Assets/Kevin Iglesias/Villager Animations Pack/Prefabs/Human Villagers/Human
+      Villager - Seeder03.prefab.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Textures.meta
+    - Assets/Kevin Iglesias/Villager Animations Pack/Textures/VillagerTexture.png
+    - Assets/Kevin Iglesias/Villager Animations Pack/Textures/VillagerTexture.png.meta
+    - Assets/Levels.meta
+    - Assets/Levels/New Terrain 1.asset
+    - Assets/Levels/New Terrain 1.asset.meta
+    - Assets/Levels/New Terrain.asset
+    - Assets/Levels/New Terrain.asset.meta
     - Assets/Oculus.meta
     - Assets/Oculus/AudioManager.meta
     - Assets/Oculus/AudioManager/Audio.meta
@@ -3048,8 +5164,14 @@ MonoBehaviour:
     - Assets/Resources/OVRPlatformToolSettings.asset
     - Assets/Resources/OVRPlatformToolSettings.asset.meta
     - Assets/Scenes.meta
+    - Assets/Scenes/New Material.mat
+    - Assets/Scenes/New Material.mat.meta
     - Assets/Scenes/SampleScene.unity
     - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/Tutorial.unity
+    - Assets/Scenes/Tutorial.unity.meta
+    - Assets/Scenes/TutorialText.cs
+    - Assets/Scenes/TutorialText.cs.meta
     - Assets/Standard Assets.meta
     - Assets/Standard Assets/Environment.meta
     - Assets/Standard Assets/Environment/Water (Basic).meta
@@ -3092,11 +5214,11 @@ MonoBehaviour:
     - Assets/XR/Settings/Oculus Settings.asset.meta
     - Assets/XR/XRGeneralSettings.asset
     - Assets/XR/XRGeneralSettings.asset.meta
-    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/TagManager.asset
     - ProjectSettings/UnityConnectSettings.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

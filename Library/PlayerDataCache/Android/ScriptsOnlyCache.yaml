@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - CannonControl
     - ONSPSettings
     - PlayerControl
+    - TutorialText
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -31,6 +32,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -64,27 +72,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 12068}
     - Class: 114
-      Script: {instanceID: 12236}
+      Script: {instanceID: 12238}
     - Class: 114
-      Script: {instanceID: 12576}
+      Script: {instanceID: 12578}
     - Class: 114
-      Script: {instanceID: 12792}
+      Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 13740}
-    - Class: 114
-      Script: {instanceID: 14588}
-    - Class: 114
-      Script: {instanceID: 14672}
-    - Class: 114
-      Script: {instanceID: 14770}
-    - Class: 114
-      Script: {instanceID: 16108}
+      Script: {instanceID: 14774}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -108,6 +108,107 @@ ScriptsOnlyBuild:
     - Class: 850595691
       Script: {instanceID: 0}
     - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/Tutorial.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11952}
+    - Class: 114
+      Script: {instanceID: 11954}
+    - Class: 114
+      Script: {instanceID: 11960}
+    - Class: 114
+      Script: {instanceID: 11990}
+    - Class: 114
+      Script: {instanceID: 12068}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 12578}
+    - Class: 114
+      Script: {instanceID: 12794}
+    - Class: 114
+      Script: {instanceID: 12868}
+    - Class: 114
+      Script: {instanceID: 12988}
+    - Class: 114
+      Script: {instanceID: 13006}
+    - Class: 114
+      Script: {instanceID: 13152}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 14592}
+    - Class: 114
+      Script: {instanceID: 14676}
+    - Class: 114
+      Script: {instanceID: 14774}
+    - Class: 114
+      Script: {instanceID: 15134}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -574,7 +675,7 @@ ScriptsOnlyBuild:
     className: OVRControllerHelper
   - hash:
       serializedVersion: 2
-      Hash: fd81ff9b356e572171aea960ac5a35d5
+      Hash: 8282764b2fdfe4c6cf61d4c34c16b497
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControl
@@ -680,6 +781,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportTransitionWarp
+  - hash:
+      serializedVersion: 2
+      Hash: bd7d3e78a630215944bf36ab82680e7c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TutorialText
   - hash:
       serializedVersion: 2
       Hash: 5bc451093cb928b800a65f33c47556ba
@@ -1766,7 +1873,182 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: acb9f454660187d2e9256a2ba6fd4f28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowProp
+  - hash:
+      serializedVersion: 2
+      Hash: 94f0f7cde49dfd28118762d3b2ff9a0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorPlayableScene
+  - hash:
+      serializedVersion: 2
+      Hash: 8634b30629456be6e85f87165db66695
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: GatherResource
+  - hash:
+      serializedVersion: 2
+      Hash: 30450454d533878e2ae87e910a270906
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: BucketRouteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 24118cc81db4d16c8bc9410efa8ea066
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IdleThrowTrick
+  - hash:
+      serializedVersion: 2
+      Hash: 74390bf02d24bc81d5eda0ac2c2341ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperTool
+  - hash:
+      serializedVersion: 2
+      Hash: 5840c475c7548854287b9a4d05092968
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: LiftSMB
+  - hash:
+      serializedVersion: 2
+      Hash: 6a9a2a8a7726c883b71c53d9451b5139
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolSMB
+  - hash:
+      serializedVersion: 2
+      Hash: f7c256269c251b4d13bad6345002acfc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolSequenceSMB
+  - hash:
+      serializedVersion: 2
+      Hash: d2d5de2e229a68232888ffd51682862e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowMultipleProps
+  - hash:
+      serializedVersion: 2
+      Hash: c72cc268bad80a07e0e1a57e9a728bc9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ChangeSpear
+  - hash:
+      serializedVersion: 2
+      Hash: d387195ee8f0fe7099901934136c7bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowHealing
+  - hash:
+      serializedVersion: 2
+      Hash: 349faf5e9c46bb78f3482fb846d666c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowingActionSMB
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorBillboard
+  - hash:
+      serializedVersion: 2
+      Hash: fd4b897e7e023a02d3fc100d08a0f633
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolSMBRemover
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorAttackScript
+  - hash:
+      serializedVersion: 2
+      Hash: d387195ee8f0fe7099901934136c7bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowShockwave
+  - hash:
+      serializedVersion: 2
+      Hash: 3e05fc2b2e8cbfd6f0d1463ff297f894
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: LiftScript
+  - hash:
+      serializedVersion: 2
+      Hash: cacb63e2356440e7b61c0c5e7cecce9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: CookingSMB
+  - hash:
+      serializedVersion: 2
+      Hash: dbe960f66f458a0828e28e41554447cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowNova
+  - hash:
+      serializedVersion: 2
+      Hash: ab02b20dbaed1c0de1b95bcc09e5a7dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: AddCastEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 732870cf3c2144143ba35b589ebabc6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: RunningVillagers
+  - hash:
+      serializedVersion: 2
+      Hash: 3ac83d7b7a09187d6e7d389866a9b1c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: CastSpells
+  - hash:
+      serializedVersion: 2
+      Hash: d387195ee8f0fe7099901934136c7bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowFireball
+  - hash:
+      serializedVersion: 2
+      Hash: c6f6d88c7e1e7ed8625d14e3747ecf03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: BucketRoute
+  - hash:
+      serializedVersion: 2
+      Hash: 24118cc81db4d16c8bc9410efa8ea066
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: ThrowBigAxe
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: IKHelperToolCustomInspector
+  - hash:
+      serializedVersion: 2
+      Hash: 28fabd2a02a87206dac9109b02e47204
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: CookingScript
+  - hash:
+      serializedVersion: 2
+      Hash: 23c29769536a4c26ce2e0c755d39464a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KevinIglesias
+    className: MeleeWarriorUnitScript
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Projects/Unity Projects/Captain Bryce Patrol/Builds/0.0.8/com.Underwalk.CaptainBrycePatrol.apk
+  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.0.9/com.Underwalk.CaptainBrycePatrol.apk

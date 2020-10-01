@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D37B267B-90D3-5339-3A88-C0448F4D2E9B}</ProjectGuid>
+    <ProjectGuid>{52EAC538-715C-85BB-97A7-1315549540CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -98,6 +98,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Interactable.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionWarp.cs" />
+    <Compile Include="Assets\Scenes\TutorialText.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarDriver.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCarBase.cs" />
@@ -208,6 +209,36 @@
     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Throwing Animations Pack\Scripts\ThrowProp.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations Pack\Playable Example Scene\Scripts\MeleeWarriorPlayableScene.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\GatherResource.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\BucketRouteAnimator.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Throwing Animations Pack\Scripts\IdleThrowTrick.cs" />
+    <Compile Include="Assets\Kevin Iglesias\IKHelperTool\Scripts\IKHelperTool.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\LiftSMB.cs" />
+    <Compile Include="Assets\Kevin Iglesias\IKHelperTool\Scripts\IKHelperToolSMB.cs" />
+    <Compile Include="Assets\Kevin Iglesias\IKHelperTool\Scripts\IKHelperToolSequenceSMB.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Throwing Animations Pack\Scripts\ThrowMultipleProps.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Throwing Animations Pack\Scripts\ChangeSpear.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Caster Mage Animations Pack\Scripts\ThrowHealing.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Throwing Animations Pack\Scripts\ThrowingActionSMB.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations Pack\Playable Example Scene\Scripts\MeleeWarriorBillboard.cs" />
+    <Compile Include="Assets\Kevin Iglesias\IKHelperTool\Scripts\IKHelperToolSMBRemover.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations Pack\Playable Example Scene\Scripts\MeleeWarriorAttackScript.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Caster Mage Animations Pack\Scripts\ThrowShockwave.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\LiftScript.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\CookingSMB.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Caster Mage Animations Pack\Scripts\ThrowNova.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Caster Mage Animations Pack\Scripts\AddCastEffect.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\RunningVillagers.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Caster Mage Animations Pack\Scripts\CastSpells.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Caster Mage Animations Pack\Scripts\ThrowFireball.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\BucketRoute.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Throwing Animations Pack\Scripts\ThrowBigAxe.cs" />
+    <Compile Include="Assets\Kevin Iglesias\IKHelperTool\Scripts\IKHelperToolCustomInspector.cs" />
+    <Compile Include="Assets\Kevin Iglesias\IKHelperTool\Scripts\IKHelperToolUtils.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\CookingScript.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations Pack\Playable Example Scene\Scripts\MeleeWarriorUnitScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -839,27 +870,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7F752987-348E-4092-60B6-C679414156C6}</Project>
+      <Project>{22C88FCD-7129-83A1-B999-20C12F9EADE2}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{F3CAC217-85BB-585A-2F60-2746B669B86A}</Project>
+      <Project>{CDBE278F-BB81-429B-6967-832DB0FB9138}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{D61D274C-99CF-BC3D-B37E-DA160FD6C811}</Project>
+      <Project>{E106B148-C8DB-2263-75C3-5E00B7ACA9FC}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{85EED988-A97E-5D04-02BD-BB36CB4D330B}</Project>
+      <Project>{8FDC3AAC-3E89-4DBC-048C-786169999734}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{95F0C557-0293-0242-0102-F91F35D2099B}</Project>
+      <Project>{1B6C6128-0571-2EF2-25FA-DEC3EFC360D3}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{A31E5DF7-DE92-2EB2-555C-EE3B830D29C5}</Project>
+      <Project>{36589148-0217-3B31-8A06-1830C483A7E8}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>
