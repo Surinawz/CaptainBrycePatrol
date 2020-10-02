@@ -12,6 +12,7 @@ public class Hax
     public float APMaxMultiplier { get; set; }
     public float baseDamage { get; set; }
 
+
     public Hax(string name, GameObject cannonball, float apmaxmultiplier, float basedamage)
     {
         Name = name;
@@ -48,15 +49,15 @@ public class CannonControl : MonoBehaviour
     #endregion
     #region Cannon Ball Attributes
 
-        [SerializeField] private GameObject Hax; // For assigning Cannon Ball Prefab for Instantiation
+        [SerializeField] public GameObject Hax; // For assigning Cannon Ball Prefab for Instantiation
         private Hax cannonBall; // Creates Hax Class that add attributes to projectile game object
         Rigidbody cannonBallBody; // Assigns rigid body for cannon Balls after instantiation
         [SerializeField] public float firePower; // Cannon Ball Firing Speed
         public Transform shotPos; // Stores Position and Angle when Instantiating Cannon Ball       
         [SerializeField] Text HaxChoice; // Text box that shows the active Hax in the cannon
-        List<Hax> Haxes = new List<Hax>(); // List of Hax available to Player
+        public List<Hax> Haxes = new List<Hax>(); // List of Hax available to Player
         private float cannonCallCount = 0;
-        enum HaxList // Assign the Name to the Child Order for Instantiating Children of Hax GameObject
+        public enum HaxList // Assign the Name to the Child Order for Instantiating Children of Hax GameObject
           {
         Greenaga = 0,
         Redaga = 1,
@@ -74,8 +75,11 @@ public class CannonControl : MonoBehaviour
         private Vector2 rightThumbStick;
     #endregion
 
-    Player player = new Player();
+    public Player player = new Player();
     [SerializeField] Text APDisplay;
+    [SerializeField] private Text ToxinDisplay;
+    [SerializeField] private GameObject EnemiesOnTerrain;
+    private int Enemies;
     #endregion
 
     // Start is called before the first frame update
@@ -93,7 +97,7 @@ public class CannonControl : MonoBehaviour
     #endregion
     }
 
-    private void MakeHaxList()
+    void MakeHaxList()
     {
     #region Instantiate Hax
         Hax Greenaga = new Hax("Greenaga",Hax.transform.GetChild((int)HaxList.Greenaga).gameObject,5,10);
@@ -110,7 +114,9 @@ public class CannonControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     #region Cannon Controls
+        Enemies = EnemiesOnTerrain.transform.childCount;
+        ToxinDisplay.text = Enemies.ToString();
+        #region Cannon Controls
         FireCannon();
         RotateCannon();
         ChangeHax();
@@ -123,8 +129,7 @@ public class CannonControl : MonoBehaviour
         else
         {
             APDisplay.text = player.APAvailable(cannonBall, cannonCallCount).ToString();
-        }
-        
+        }     
     }
 
     private void ChangeHax()
@@ -206,13 +211,13 @@ public class CannonControl : MonoBehaviour
             shotPos.rotation = transform.rotation;
             ovrCannonThrow = OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger);
             cannonThrow = Input.GetAxis("Fire2");
-            print(shotPos.position);
+        
             
 
          if (ovrCannonThrow > .5||cannonThrow>.5)
             {
                 GameObject cannonBallCopy = Instantiate(cannonBall.CannonBall, shotPos.position, shotPos.rotation) as GameObject;
-                cannonBallBody = cannonBallCopy.GetComponent<Rigidbody>();
+                cannonBallBody = cannonBallCopy.GetComponent<Rigidbody>();           
                 cannonBallBody.AddForce(transform.forward * firePower);
                 GameObject.Destroy(cannonBallCopy,2);
             }

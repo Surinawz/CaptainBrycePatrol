@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Water.WaterBasic
     Assembly-CSharp.dll:
     - CannonControl
+    - GreenBlockToxin
     - ONSPSettings
     - PlayerControl
     - TutorialText
@@ -64,7 +65,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -77,19 +86,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 11992}
+      Script: {instanceID: 11958}
     - Class: 114
-      Script: {instanceID: 12072}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12250}
+      Script: {instanceID: 12074}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 13180}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 12824}
+    - Class: 114
+      Script: {instanceID: 13184}
+    - Class: 114
+      Script: {instanceID: 13784}
+    - Class: 114
+      Script: {instanceID: 15192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -99,6 +114,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 154
       Script: {instanceID: 0}
@@ -151,7 +168,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -166,29 +191,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11958}
     - Class: 114
-      Script: {instanceID: 11992}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12072}
+      Script: {instanceID: 12074}
     - Class: 114
-      Script: {instanceID: 12250}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 12824}
     - Class: 114
-      Script: {instanceID: 13032}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 13180}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 14636}
+      Script: {instanceID: 13784}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 14640}
     - Class: 114
-      Script: {instanceID: 15188}
+      Script: {instanceID: 14724}
+    - Class: 114
+      Script: {instanceID: 15192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,6 +225,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -344,6 +373,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: KevinIglesias
     className: GatherResource
+  - hash:
+      serializedVersion: 2
+      Hash: d0157e24cac415dc236a041a15e3c455
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GreenBlockToxin
   - hash:
       serializedVersion: 2
       Hash: e4c511fcf31a39b6e614595be7309046
@@ -634,7 +669,7 @@ ScriptsOnlyBuild:
     className: TeleportAimHandlerParabolic
   - hash:
       serializedVersion: 2
-      Hash: c9efe04e7a522811594b1d50d59ab56d
+      Hash: ac94d4ee3490ce956a0561eb290c5e6a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CannonControl
@@ -2052,4 +2087,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.0.9.4/com.Underwalk.CaptainBrycePatrol.apk
+  playerPath: E:/Gits/CaptainBrycePatrol/Builds/0.1.0.0/com.Underwalk.CaptainBrycePatrol.apk
