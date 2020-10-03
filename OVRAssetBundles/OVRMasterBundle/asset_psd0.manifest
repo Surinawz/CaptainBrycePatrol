@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 506259164
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2fa2e988de191822625e713c38a943b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 525b72fdacf3aef7d65f355ad8f17a96
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
+- Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+Dependencies: []

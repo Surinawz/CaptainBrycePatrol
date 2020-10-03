@@ -62,8 +62,10 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableToolView.cs" />
+    <Compile Include="Assets\Bryce Boat\Scripts\HaxOnCollision.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandler.cs" />
     <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\GatherResource.cs" />
+    <Compile Include="Assets\Toxins\GreenBlockToxin\GreenBlockToxin.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_Control.cs" />
     <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\BucketRouteAnimator.cs" />
@@ -112,7 +114,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Interactable.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionWarp.cs" />
-    <Compile Include="Assets\Scenes\TutorialText.cs" />
+    <Compile Include="Assets\Scenes\Tutorial\TutorialText.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarDriver.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCarBase.cs" />
@@ -212,6 +214,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarHand.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRNamedArrayAttribute.cs" />
+    <Compile Include="Assets\Facer.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
     <Compile Include="Assets\Kevin Iglesias\Villager Animations Pack\Example Scene\Scripts\BucketRoute.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
@@ -238,7 +241,6 @@
     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
-    <Compile Include="Assets\Toxins\GreenBlockToxin\GreenBlockToxin.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -866,6 +868,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.MockHMD">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.MockHMD.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.MockHMD.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.MockHMD.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
