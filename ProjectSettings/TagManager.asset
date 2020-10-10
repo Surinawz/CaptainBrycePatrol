@@ -8,6 +8,10 @@ TagManager:
   - Undefined
   - Redaga
   - Enemy
+  - Greenaga
+  - A Lemon
+  - Stabby
+  - Loadout
   layers:
   - Default
   - TransparentFX

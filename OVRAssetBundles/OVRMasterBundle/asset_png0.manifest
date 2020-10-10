@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3795928674
+CRC: 2516156496
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5a2f233a7c8db02ae03608f1d7e9bdfd
+    Hash: 3287544e1040c0954912b5135f19a896
   TypeTreeHash:
     serializedVersion: 2
     Hash: 525b72fdacf3aef7d65f355ad8f17a96
@@ -17,9 +17,7 @@ Assets:
 - Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png
 - Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png
 - Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png
-- Assets/Bryce Boat/Images/Wall_wood.png
 - Assets/Bryce Boat/Images/Lemon.png
-- Assets/Bryce Boat/Images/UnderwalkLogo_But_more_GREEN 1.png
 - Assets/Kevin Iglesias/Throwing Animations Pack/Textures/ThrowingTexture.png
 - Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png
 - Assets/Kevin Iglesias/Dance Animations Pack/Textures/DanceTextures.png

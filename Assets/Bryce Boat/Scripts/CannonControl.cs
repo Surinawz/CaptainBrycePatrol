@@ -54,7 +54,7 @@ public class CannonControl : MonoBehaviour
     #region Assign Variables
 
 
-    #region Cannon Ball Attributes
+    #region Hax Attributes
 
     [SerializeField] public GameObject Hax; // For assigning Cannon Ball Prefab for Instantiation
     private Hax cannonBall; // Creates Hax Class that add attributes to projectile game object
@@ -79,31 +79,32 @@ public class CannonControl : MonoBehaviour
 
   
     private bool aButton;
-    private float cannonThrow; // Fire 1 button for testing in editor
-    private float ovrCannonThrow; // Oculus Specific Right Index Trigger
+    private bool cannonThrow; // Fire 1 button for testing in editor
+    private bool ovrCannonThrow; // Oculus Specific Right Index Trigger
     private Vector2 rightThumbStick;
 
     #endregion
 
     private bool levelDone = false;
 
-
+    #region Update Bow Display
     public Player player = new Player();
     [SerializeField] Text APDisplay;
     [SerializeField] private Text ToxinDisplay;
     [SerializeField] private GameObject EnemiesOnTerrain;
     private int Enemies;
+    #endregion
 
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-
+        #region Initialize Player Stats
         player.APMax = 5;
+#endregion
 
-
-        #region Instantiate Available Hax and Set Default Hax
+        #region Initialize Available Hax and Set Default Hax
 
         MakeHaxList();
         cannonBall = Haxes.Single(c => c.Name == "Greenaga");
@@ -114,13 +115,12 @@ public class CannonControl : MonoBehaviour
 
     void MakeHaxList()
     {
-        #region Instantiate Hax
+        #region Initialize Hax
 
         Hax Greenaga = new Hax("Greenaga", Hax.transform.GetChild((int) HaxList.Greenaga).gameObject, 5, 10);
         Hax Redaga = new Hax("Redaga", Hax.transform.GetChild((int) HaxList.Redaga).gameObject, 5, 10);
-        Hax Lemon = new Hax("A Lemon", Hax.transform.GetChild((int) HaxList.Lemon).gameObject, 1, 10);
-        Hax Stabby = new Hax("Stabby", Hax.transform.GetChild((int) HaxList.Stabby).gameObject, 1, 10);
-
+        Hax Lemon = new Hax("A Lemon", Hax.transform.GetChild((int)HaxList.Lemon).gameObject, 1, 10);
+        Hax Stabby = new Hax("Stabby", Hax.transform.GetChild((int)HaxList.Stabby).gameObject, 1, 10);
         #endregion
 
         #region Add to List of Available Hax
@@ -129,21 +129,20 @@ public class CannonControl : MonoBehaviour
         Haxes.Add(Redaga);
         Haxes.Add(Lemon);
         Haxes.Add(Stabby);
-
         #endregion
     }
 
     // Update is called once per frame
     void Update()
     {
+   
         Enemies = EnemiesOnTerrain.transform.childCount;
         ToxinDisplay.text = Enemies.ToString();
 
         #region Cannon Controls
-
         FireCannon();
         ChangeHax();
-
+        #region Check for Available AP
         cannonCallCount = GameObject.FindGameObjectsWithTag("Cannonball").Length;
         if (player.APAvailable(cannonBall, cannonCallCount) < 0)
         {
@@ -153,14 +152,14 @@ public class CannonControl : MonoBehaviour
         {
             APDisplay.text = player.APAvailable(cannonBall, cannonCallCount).ToString();
         }
-
+        #endregion
         #endregion
 
         #region Detect Win
 
         if (Enemies == 0 && SceneManager.GetActiveScene().buildIndex > 0)
         {
-            Invoke("LevelComplete", 2);
+            Invoke("LevelComplete", 1);
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 1 && levelDone == true)
@@ -191,7 +190,7 @@ public class CannonControl : MonoBehaviour
     }
 
     #endregion
-
+    
     private void ChangeHax()
     {
         #region Cycle Through Hax
@@ -220,6 +219,35 @@ public class CannonControl : MonoBehaviour
 
         #endregion
     }
+    
+    void OnTriggerEnter(Collider collision)
+    {
+        try
+        {
+            print(collision.name);
+            if (collision.tag == "Loadout")
+            {
+                cannonBall = Haxes.Single(c => c.Name == collision.name);
+                UpdateHaxNotifier();
+            }
+        }
+        catch
+        {
+        }
+        print(cannonBall.Name);
+    }
+
+    void OnTriggerStay(Collider collision)
+    {
+        print(collision.name);
+        print(cannonBall.Name);
+    }
+
+    void OnTriggerExit(Collider collision)
+    {
+  
+    }
+    
 
     private void UpdateHaxNotifier()
     {
@@ -237,7 +265,7 @@ public class CannonControl : MonoBehaviour
     private void FireCannon()
     {
 
-        #region // Count Existing Projectives and Suppress Fire at 30
+        #region Check for Available AP
 
         if (cannonCallCount > player.EquippedMaxAP(cannonBall))
         {
@@ -246,17 +274,17 @@ public class CannonControl : MonoBehaviour
 
         #endregion
 
-        #region // Fire Projectile
+        #region Fire Projectile
 
         else
         {
             shotPos.rotation = transform.rotation;
-            ovrCannonThrow = OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger);
-            cannonThrow = Input.GetAxis("Fire2");
+            ovrCannonThrow = OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger,OVRInput.Controller.RTouch);
+            cannonThrow = Input.GetMouseButtonDown(0);
 
 
 
-            if (ovrCannonThrow > .5 || cannonThrow > .5)
+            if (ovrCannonThrow || cannonThrow)
             {
                 GameObject cannonBallCopy =
                     Instantiate(cannonBall.CannonBall, shotPos.position, shotPos.rotation) as GameObject;

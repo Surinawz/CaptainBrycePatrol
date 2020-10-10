@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1218783191
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ee8acbe999888ef7e070203b8940c092
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 57836fec4db301e25a9e024c7b365096
+HashAppended: 0
+ClassTypes:
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+Assets:
+- Assets/OculusSpatializer.mixer
+Dependencies: []

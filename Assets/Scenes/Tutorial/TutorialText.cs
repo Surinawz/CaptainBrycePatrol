@@ -29,23 +29,23 @@ public class TutorialText : MonoBehaviour
 
     private void MakeInstructions()
     {
-        
+        #region Instructions Text
         Instructions.Add("Welcome to Captain Bryce Patrol");
-        Instructions.Add("An Arcaxer Fangame");
-        Instructions.Add("Featuring the Adventures of Captain Bryce");
-        Instructions.Add("This is in Super Beta Right Now");
-        Instructions.Add("But you can Fly and Shoot Hax from the Cannon");
+        Instructions.Add("An Arcaxer Fangame\nFeaturing the Adventures of Captain Bryce");
+        Instructions.Add("This is in Super Beta Right Now\nBut you can Fly and Shoot Hax from the Cannon");
         Instructions.Add("Ready for Instructions? Feel free to test them out as we go.");
         Instructions.Add("To look around... look around");
-        Instructions.Add("Use the Left Control Stick to Move forward and back, and turn");
-        Instructions.Add("Use the Right Grip to Lift up");
-        Instructions.Add("Use the Left Grip to Lower Down \n(If gravity isnt fast enough for you)");
-        Instructions.Add("Your Right Hand is a Cannon that focus's the power of Hax");
-        Instructions.Add("Use the right trigger to fire some Hax");
-        Instructions.Add("Use the A Button to cycle through Hax \nYour Active Hax is on the Bow Display");
-        Instructions.Add("You need AP to fire Hax. \nYour available AP is on the botton left of the Bow Display");
+        Instructions.Add("Use the Left Control Stick to Move forward and back, and to turn");
+        Instructions.Add("Use the Right Grip to lift up and Fly");
+        Instructions.Add("Use the Left Grip to diver Down \n(If gravity isnt fast enough for you)");
+        Instructions.Add("Your Right Hand is a Cannon that focuses the power of Hax");
+        Instructions.Add("Use the right trigger to fire Hax");
+        Instructions.Add("The 4 orbs on the deck are your loadout. \nTouch an orb to activate that Hax");
+        Instructions.Add("We will add more Hax in the future and a menu to change your loadout.");
+        Instructions.Add("You use up AP to fire Hax. \nYour available AP is on the bottom left of the Bow Display");
         Instructions.Add("Some Hax give you more AP when they are active. Cool right?");
         Instructions.Add("Hope you got that...\n entering the test sim!");
+        #endregion
     }
 
     // Update is called once per frame

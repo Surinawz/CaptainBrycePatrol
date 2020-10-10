@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1686077146
+CRC: 429725387
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d3ed16ef1b10c58987655ae6de3a807f
+    Hash: e23d94c0090777eed011e3292415e18c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 525b72fdacf3aef7d65f355ad8f17a96
@@ -16,13 +16,7 @@ Assets:
 - Assets/ADG_Textures/ground_vol1/ground4/ground4_Diffuse.tga
 - Assets/ADG_Textures/ground_vol1/ground2/ground2_Metallic.tga
 - Assets/ADG_Textures/ground_vol1/ground4/ground4_Normal.tga
-- Assets/ADG_Textures/ground_vol1/ground9/ground9_Height.tga
 - Assets/ADG_Textures/ground_vol1/ground7/ground7_Diffuse.tga
-- Assets/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga
-- Assets/ADG_Textures/ground_vol1/ground2/ground2_Diffuse.tga
-- Assets/ADG_Textures/ground_vol1/ground1/ground1_Normal.tga
-- Assets/ADG_Textures/ground_vol1/ground9/ground9_Diffuse.tga
 - Assets/ADG_Textures/ground_vol1/ground1/ground1_Diffuse.tga
-- Assets/ADG_Textures/ground_vol1/ground7/ground7_Normal.tga
 - Assets/ADG_Textures/ground_vol1/ground2/ground2_Height.tga
 Dependencies: []

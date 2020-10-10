@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1037549048
+CRC: 677696890
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f3c655f1c52f7d65aef6a1f2c06f1462
+    Hash: 0d0903e78ff8377869118717c460d41b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 763f62e45124f20c52143cb2bab8caa7
@@ -18,7 +18,6 @@ ClassTypes:
 - Class: 1953259897
   Script: {instanceID: 0}
 Assets:
-- Assets/New Terrain.asset
 - Assets/Levels/New Terrain.asset
 Dependencies:
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_terrainlayer0

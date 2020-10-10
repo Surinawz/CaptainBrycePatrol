@@ -7,30 +7,32 @@ using static CannonControl;
 
 public class GreenBlockToxin : MonoBehaviour
 {
-    List<Hax> Haxes = new List<Hax>();
-    [SerializeField] public GameObject Hax;
-    [SerializeField] public GameObject ThisToxin;
-    [SerializeField] private float HP;
-    [SerializeField] private Text HPLeft;
-    private float haxDamageReceived;
-    [SerializeField] private RuntimeAnimatorController deathScene;
-    private Rigidbody thisRigidbody;
-    private Animator thisAnimator;
-    
+    List<Hax> Haxes = new List<Hax>(); // List of All Hax so the enemy knows what can hit it
+    [SerializeField] public GameObject Hax; // The Hax Gameobjects
+    [SerializeField] public GameObject ThisToxin; // Kind of Redundant
+    [SerializeField] private float HP; // Max HP for Enemy
+    [SerializeField] private Text HPLeft; // Current HP for Enemy
+    private float haxDamageReceived; // the Amount of Damage from the HAX
+    [SerializeField] private RuntimeAnimatorController deathScene; // Animation Control to flail wildly
+    private Rigidbody thisRigidbody; // Holds Rigidbody for the Enemy
+    private Animator thisAnimator; // Holds Animator for the enemy
+
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        MakeHaxList();
+
+        MakeHaxList(); // Instantiate list of all hax
         thisAnimator = ThisToxin.GetComponent<Animator>();
-        thisRigidbody = ThisToxin.GetComponent<Rigidbody>();
-        
+        thisRigidbody = ThisToxin.GetComponent<Rigidbody>();       
     }
 
     // Update is called once per frame
     void Update()
     {
+        #region Update Hitpoints with 0 Floor
         float toxinHP;
         if (HP - haxDamageReceived < 0)
         {
@@ -40,7 +42,8 @@ public class GreenBlockToxin : MonoBehaviour
         {
             toxinHP = HP - haxDamageReceived;
         }
-
+        #endregion
+        #region Detect Death
         HPLeft.text = (toxinHP).ToString()+ " HP";
         if (toxinHP==0)
         {
@@ -49,13 +52,20 @@ public class GreenBlockToxin : MonoBehaviour
             thisAnimator.runtimeAnimatorController = deathScene;
             Destroy(ThisToxin, 1.5f);
         }
+        #endregion
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        haxDamageReceived += Haxes.SingleOrDefault(hax => hax.Name == collision.gameObject.name.Replace("(Clone)", "")).baseDamage;
-        print(haxDamageReceived);
+        try
+        {
+            haxDamageReceived +=
+                Haxes.SingleOrDefault(hax => hax.Name == collision.gameObject.name.Replace("(Clone)", "")).baseDamage;
+        }
+        catch
+        {
 
+        }
     }
 
     void MakeHaxList()

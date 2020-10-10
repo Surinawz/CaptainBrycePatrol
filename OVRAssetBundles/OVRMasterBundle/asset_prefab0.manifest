@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3895181606
+CRC: 1571146355
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4e68db2f2a01c29b5a24361ca2ec117f
+    Hash: d60a6dc8c0cd1834d07ecf14432b26e3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5494d4d6ec188ab8e60e753bde705884
+    Hash: 7a80b4b8628908dce9d72b238e7f46e4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,15 +42,17 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 405b59b04bec84540bdc4e2acdb44cfd, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f06112d047ae2104aae35fd460fd836a, type: 3}
 - Class: 114
@@ -75,10 +77,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 - Class: 222
@@ -88,6 +86,7 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
+- Assets/Bryce Boat/Prefabs/Bow Display.prefab
 - Assets/Bryce Boat/Prefabs/Greenaga.prefab
 - Assets/Toxins/GreenBlockToxin/GreenBlockToxin.prefab
 - Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 03.prefab
@@ -102,5 +101,6 @@ Assets:
 Dependencies:
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_blend0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_physicmaterial0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_controller0

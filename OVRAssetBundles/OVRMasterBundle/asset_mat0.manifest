@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 635875248
+CRC: 1439695129
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9318854fc38163e6baca1604da57fc53
+    Hash: 70accacc78aa65a80279ee8287149d24
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8215722b766c6decafa3f90512650b44
@@ -22,11 +22,10 @@ Assets:
 - Assets/Bryce Boat/Images/Materials/UnderwalkLogo.mat
 - Assets/AllSkyFree/New Material.mat
 - Assets/Kevin Iglesias/Throwing Animations Pack/Materials/ThrowingTexture.mat
-- Assets/Bryce Boat/Images/Materials/UnderwalkLogo_But_more_GREEN 1.mat
 - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
 - Assets/Bryce Boat/Materials/Redaga.mat
-- Assets/Bryce Boat/Materials/Boatwood.mat
 - Assets/Bryce Boat/Materials/Greenaga.mat
+- Assets/Bryce Boat/Materials/GreenEmission.mat
 Dependencies:
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_png0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_tga0

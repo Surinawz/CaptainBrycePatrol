@@ -128,8 +128,6 @@ E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.Management.Editor.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.Oculus.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.Oculus.Editor.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.dll
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.SpatialTracking.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.UI.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.XR.LegacyInputHelpers.dll
@@ -272,8 +270,6 @@ E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEngine.VideoModule.xml
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEngine.WindModule.xml
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEngine.XRModule.xml
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.xml
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Xcode.pdb
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Common.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.Management.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.Timeline.Editor.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.Subsystem.Registration.pdb
@@ -304,3 +300,7 @@ E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompil
 E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp-firstpass.dll
 E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp-firstpass.pdb
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.MockHMD.dll
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.MockHMD.Editor.dll
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.MockHMD.pdb
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.XR.MockHMD.Editor.pdb

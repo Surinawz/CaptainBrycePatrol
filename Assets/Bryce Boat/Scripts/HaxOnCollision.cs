@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class HaxOnCollision : MonoBehaviour
 {
-
+  
+    private Light deathLight;
 
     // Start is called before the first frame update
     void Start()
     {
         
+        deathLight = GetComponent<Light>();
+
     }
 
     // Update is called once per frame
@@ -20,9 +23,13 @@ public class HaxOnCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        #region Detect if Collision is an Enemy and if so, flash and destroy
         if (collision.gameObject.tag == "Enemy")
         {
-            DestroyImmediate(gameObject);
+            deathLight.intensity = 30f;
+            Destroy(transform.gameObject, .05f);
         }
+        #endregion
+
     }
 }

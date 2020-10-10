@@ -52,11 +52,23 @@
     <UnityVersion>2020.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogEntry.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogConsole.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogLogcatListener.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogRecycledListView.cs" />
     <Compile Include="Assets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogPopup.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogItem.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugsOnScrollListener.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\CircularBuffer.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\ConsoleMethodAttribute.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogManager.cs" />
+    <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogIndexList.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Plugins\IngameDebugConsole\README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -236,12 +248,6 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -603,6 +609,9 @@
     <Reference Include="Unity.XR.Oculus">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.MockHMD">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.MockHMD.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -639,14 +648,11 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.MockHMD">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.MockHMD.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.MockHMD.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.MockHMD.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

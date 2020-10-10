@@ -120,9 +120,6 @@ E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\System.Xml.XPath.XDocument.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.Android.Extensions.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.Graphs.dll
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.dll
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.LinuxStandalone.Extensions.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.Lumin.Extensions.dll
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.OSXStandalone.Extensions.dll
@@ -269,15 +266,12 @@ E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEngine.XRModule.xml
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.xml
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.WebGL.Extensions.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.OSXStandalone.Extensions.pdb
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.WindowsStandalone.Extensions.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.LinuxStandalone.Extensions.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.UWP.Extensions.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.Lumin.Extensions.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\nunit.framework.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\nunit.framework.xml
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Xcode.pdb
-E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Common.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.UI.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEngine.UI.pdb
 E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.TestRunner.pdb

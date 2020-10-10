@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2488595478
+CRC: 3273261333
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 46032bf8eaee4d421afe5c49bac88a0b
+    Hash: 28e3f99f0e20334fc311dd0ab6e301ca
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 68bbd665e581b01c7ef807643e8ac8aa
+    Hash: 64ca385ee01f7bd23568d37b95b824ee
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,6 +37,10 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
 - Class: 91
@@ -48,17 +52,19 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 405b59b04bec84540bdc4e2acdb44cfd, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f06112d047ae2104aae35fd460fd836a, type: 3}
 - Class: 114
@@ -93,10 +99,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 196
   Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 - Class: 218
@@ -116,5 +118,7 @@ Assets:
 Dependencies:
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_physicmaterial0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mp30
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_asset0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_controller0

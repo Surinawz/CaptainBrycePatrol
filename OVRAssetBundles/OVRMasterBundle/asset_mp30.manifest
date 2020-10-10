@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3702745233
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 98e6fbf1e164f6c06e4be4612b85b1d0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scenes/Level 1/Captain_Bryce_Patrol_Battle_Theme.mp3
+Dependencies: []
