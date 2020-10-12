@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -85,8 +84,6 @@ public class CannonControl : MonoBehaviour
 
     #endregion
 
-    private bool levelDone = false;
-
     #region Update Bow Display
     public Player player = new Player();
     [SerializeField] Text APDisplay;
@@ -135,14 +132,16 @@ public class CannonControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-   
+
         Enemies = EnemiesOnTerrain.transform.childCount;
         ToxinDisplay.text = Enemies.ToString();
 
         #region Cannon Controls
+
         FireCannon();
-        ChangeHax();
+
         #region Check for Available AP
+
         cannonCallCount = GameObject.FindGameObjectsWithTag("Cannonball").Length;
         if (player.APAvailable(cannonBall, cannonCallCount) < 0)
         {
@@ -152,70 +151,8 @@ public class CannonControl : MonoBehaviour
         {
             APDisplay.text = player.APAvailable(cannonBall, cannonCallCount).ToString();
         }
-        #endregion
-        #endregion
-
-        #region Detect Win
-
-        if (Enemies == 0 && SceneManager.GetActiveScene().buildIndex > 0)
-        {
-            Invoke("LevelComplete", 1);
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 1 && levelDone == true)
-        {
-            HaxChoice.text = cannonBall.Name;
-            LoadNextLevel();
-        }
 
         #endregion
-    }
-
-    #region Methods to Detect Win and Move to Next Level
-
-    private void LevelComplete()
-    {
-        HaxChoice.text = "All Dead";
-        Invoke("LevelDone", 5);
-    }
-
-    private void LevelDone()
-    {
-        levelDone = true;
-    }
-
-    private static void LoadNextLevel()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    #endregion
-    
-    private void ChangeHax()
-    {
-        #region Cycle Through Hax
-
-        if (Input.GetButtonDown("HaxSelect") || OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
-        {
-            if (cannonBall == Haxes.Single(c => c.Name == "Greenaga"))
-            {
-                cannonBall = Haxes.Single(c => c.Name == "Redaga");
-            }
-            else if (cannonBall == Haxes.Single(c => c.Name == "Redaga"))
-            {
-                cannonBall = Haxes.Single(c => c.Name == "A Lemon");
-            }
-            else if (cannonBall == Haxes.Single(c => c.Name == "A Lemon"))
-            {
-                cannonBall = Haxes.Single(c => c.Name == "Stabby");
-            }
-            else
-            {
-                cannonBall = Haxes.Single(c => c.Name == "Greenaga");
-            }
-
-            UpdateHaxNotifier();
-        }
 
         #endregion
     }
@@ -224,7 +161,7 @@ public class CannonControl : MonoBehaviour
     {
         try
         {
-            print(collision.name);
+
             if (collision.tag == "Loadout")
             {
                 cannonBall = Haxes.Single(c => c.Name == collision.name);
@@ -234,13 +171,12 @@ public class CannonControl : MonoBehaviour
         catch
         {
         }
-        print(cannonBall.Name);
+
     }
 
     void OnTriggerStay(Collider collision)
     {
-        print(collision.name);
-        print(cannonBall.Name);
+
     }
 
     void OnTriggerExit(Collider collision)
@@ -264,25 +200,18 @@ public class CannonControl : MonoBehaviour
     
     private void FireCannon()
     {
-
         #region Check for Available AP
-
         if (cannonCallCount > player.EquippedMaxAP(cannonBall))
         {
             return;
         }
-
         #endregion
-
         #region Fire Projectile
-
         else
         {
             shotPos.rotation = transform.rotation;
             ovrCannonThrow = OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger,OVRInput.Controller.RTouch);
             cannonThrow = Input.GetMouseButtonDown(0);
-
-
 
             if (ovrCannonThrow || cannonThrow)
             {

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 
 public class PlayerControl : MonoBehaviour
@@ -17,6 +17,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float rotationFromFriction=5; // angle of centrifugal force when turning
     [SerializeField] private float planeForce=-2; // rising angle of bow when moving forward
     [SerializeField] private float liftForce=20; // rising angle of bow when lifting
+    [SerializeField] private float floatForce = 50; // upward force due to boyancy on lakes of coffee
     private Rigidbody boatRigidbody; // assigns rigidbody for boat
     private float turning = 0; // instantiate float for turn calculation later
 #endregion
@@ -52,21 +53,39 @@ public class PlayerControl : MonoBehaviour
         ProcessRotation();
         ProcessLift();
         ProcessDrop();
-        ProcessFloat();
+       // ProcessFloat();
 #endregion
     }
 
-   
 
+    void OnTriggerEnter(Collider collider)
+    {
+        if (collider.tag == "CoffeeLake")
+        {
+            boatRigidbody.AddRelativeForce(Vector3.up * floatForce * Time.deltaTime);
+        }
+    }
+
+    void OnTriggerStay(Collider collider)
+    {
+        if (collider.tag == "CoffeeLake")
+        {
+            boatRigidbody.AddRelativeForce(Vector3.up * floatForce * Time.deltaTime);
+        }
+    }
+
+   
+    /*   **Should be handled by Triggers now
     private void ProcessFloat()
     {
     #region Provide lift force to bounce at water level
-            if (transform.position.y < 2)
+            if (transform.position.y < 2 && SceneManager.GetActiveScene().buildIndex<2)
             {
                 boatRigidbody.AddRelativeForce(Vector3.up*lift*Time.deltaTime);
             }
     #endregion
     }
+    */
 
     private void ProcessLift()
     {
@@ -74,8 +93,8 @@ public class PlayerControl : MonoBehaviour
             liftThrow = Input.GetAxis("Jump");
             ovrLiftThrow = OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger);
     #endregion
-    #region Activate Lift with a cap of Y at 150
-            if ((liftThrow>0||ovrLiftThrow>0)&&transform.localPosition.y<150)
+    #region Activate Lift
+            if (liftThrow>0||ovrLiftThrow>0)
             {
                 boatRigidbody.AddRelativeForce(Vector3.up * lift * Time.deltaTime);
              };
@@ -88,8 +107,8 @@ public class PlayerControl : MonoBehaviour
             dropThrow = Input.GetAxis("Fire1");
             ovrDropThrow = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger);
     #endregion
-    #region Activate Drop with Floor of Y at 10
-            if ((dropThrow > 0 || ovrDropThrow > 0) && transform.localPosition.y > 10)
+    #region Activate Drop
+            if (dropThrow > 0 || ovrDropThrow > 0)
             {
                 boatRigidbody.AddRelativeForce(Vector3.down * lift * Time.deltaTime);
             };

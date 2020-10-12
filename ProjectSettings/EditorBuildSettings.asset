@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial/Tutorial.unity
     guid: 5db1192b6e11c1741be295bfdaa97986
   - enabled: 1
-    path: Assets/Scenes/Level 1/Level1.unity
+    path: Assets/Scenes/Overworld 1/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Level 2/Level2.unity
+    path: Assets/Scenes/The Drain/Pipe Block 1/Pipe Block 1.unity
     guid: 090abb27e4e9cd248a734ed03b717715
+  - enabled: 1
+    path: Assets/Scenes/The Drain/Pipe Block 2/Pipe Block 2.unity
+    guid: e98585868ddd7ec47962e0536f6f6616
+  - enabled: 1
+    path: Assets/Scenes/The Drain/Pipe Block 3/Pipe Block 3.unity
+    guid: a5ac85a16260c7a4e95c0ef6faeeba98
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ec84cf00841957741ac24330ae90933f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f85926d9c15ffe54fb75641a6ad8352b, type: 2}

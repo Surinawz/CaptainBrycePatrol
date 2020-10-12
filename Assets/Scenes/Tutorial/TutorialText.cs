@@ -44,7 +44,10 @@ public class TutorialText : MonoBehaviour
         Instructions.Add("We will add more Hax in the future and a menu to change your loadout.");
         Instructions.Add("You use up AP to fire Hax. \nYour available AP is on the bottom left of the Bow Display");
         Instructions.Add("Some Hax give you more AP when they are active. Cool right?");
+        Instructions.Add(
+            "For reasons of eventual story, your left hand is a flashlight.\nPull the left trigger to turn it off and on.");
         Instructions.Add("Hope you got that...\n entering the test sim!");
+        Instructions.Add("Kill the toxins and find the entrance to the underground drain.\n It's enormous and coffee colored.");
         #endregion
     }
 
