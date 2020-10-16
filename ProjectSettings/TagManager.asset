@@ -13,6 +13,7 @@ TagManager:
   - Stabby
   - Loadout
   - CoffeeLake
+  - EnemyHax
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Dialog
   - 
   - 
   - 
@@ -47,6 +48,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Dialog
+    uniqueID: 4127880191
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -31,8 +31,10 @@ public class Hax
 
 public class Player
 {
+    public float MaxHullStrength {get;set;}
     public float APMax { get; set; }
     public List<Hax> Haxlist { get; set; }
+    public float CurrentHullStrength { get; set; }
 
     public float EquippedMaxAP(Hax hax)
     {
@@ -67,7 +69,7 @@ public class CannonControl : MonoBehaviour
     public enum HaxList // Assign the Name to the Child Order for Instantiating Children of Hax GameObject
     {
         Greenaga = 0,
-        Redaga = 1,
+        Periwinkle = 1,
         Lemon = 2,
         Stabby = 3
     }
@@ -87,9 +89,6 @@ public class CannonControl : MonoBehaviour
     #region Update Bow Display
     public Player player = new Player();
     [SerializeField] Text APDisplay;
-    [SerializeField] private Text ToxinDisplay;
-    [SerializeField] private GameObject EnemiesOnTerrain;
-    private int Enemies;
     #endregion
 
     #endregion
@@ -115,7 +114,7 @@ public class CannonControl : MonoBehaviour
         #region Initialize Hax
 
         Hax Greenaga = new Hax("Greenaga", Hax.transform.GetChild((int) HaxList.Greenaga).gameObject, 5, 10);
-        Hax Redaga = new Hax("Redaga", Hax.transform.GetChild((int) HaxList.Redaga).gameObject, 5, 10);
+        Hax Periwinkle = new Hax("Periwinkle", Hax.transform.GetChild((int) HaxList.Periwinkle).gameObject, 1, 10);
         Hax Lemon = new Hax("A Lemon", Hax.transform.GetChild((int)HaxList.Lemon).gameObject, 1, 10);
         Hax Stabby = new Hax("Stabby", Hax.transform.GetChild((int)HaxList.Stabby).gameObject, 1, 10);
         #endregion
@@ -123,7 +122,7 @@ public class CannonControl : MonoBehaviour
         #region Add to List of Available Hax
 
         Haxes.Add(Greenaga);
-        Haxes.Add(Redaga);
+        Haxes.Add(Periwinkle);
         Haxes.Add(Lemon);
         Haxes.Add(Stabby);
         #endregion
@@ -132,9 +131,6 @@ public class CannonControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        Enemies = EnemiesOnTerrain.transform.childCount;
-        ToxinDisplay.text = Enemies.ToString();
 
         #region Cannon Controls
 
@@ -159,6 +155,8 @@ public class CannonControl : MonoBehaviour
     
     void OnTriggerEnter(Collider collision)
     {
+
+        #region Detect Loadout Collision to Change Hax
         try
         {
 
@@ -171,7 +169,7 @@ public class CannonControl : MonoBehaviour
         catch
         {
         }
-
+        #endregion
     }
 
     void OnTriggerStay(Collider collision)

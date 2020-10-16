@@ -22,6 +22,7 @@ public class Flashlight : MonoBehaviour
 
     private void ToggleFlashLight()
     {
+        #region Detect left Trigger and toggle flashlight via Intesity Level
         ovrFlashLightThrow = OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch);
         if (ovrFlashLightThrow)
         {
@@ -35,8 +36,6 @@ public class Flashlight : MonoBehaviour
             }
             
         }
-      
-
-
+        #endregion
     }
 }

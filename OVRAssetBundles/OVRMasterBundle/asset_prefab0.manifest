@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1571146355
+CRC: 4014389668
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d60a6dc8c0cd1834d07ecf14432b26e3
+    Hash: 5c70de196913c3afc7fec8bb2121d4c3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7a80b4b8628908dce9d72b238e7f46e4
+    Hash: 291e677f46e7d96b1a4303db547e9991
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,80 +27,68 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 54
-  Script: {instanceID: 0}
-- Class: 65
-  Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
-- Class: 91
-  Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
-- Class: 108
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 405b59b04bec84540bdc4e2acdb44cfd, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f06112d047ae2104aae35fd460fd836a, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: e07db71301594554fa0e0d62d1103054, type: 3}
+  Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: a4447bf37b0c49747a5cfc31417d2673, type: 3}
+  Script: {fileID: 11500000, guid: 674a40251fe8ad841b18517ac5209957, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0d2f50a8e0bb841a5aaa90ae55db8849, type: 3}
+  Script: {fileID: 11500000, guid: b71d1996d67004241a3b69960856ffcb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef803169364cc6e4d9b4df31d9c7fed7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f07515ada089df47868559a20dd6783, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f1a9a1d119a5944aacfb87d1ec283a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b558aa8ebb866bd4da56c536a7b4eb71, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-- Class: 128
-  Script: {instanceID: 0}
-- Class: 134
-  Script: {instanceID: 0}
-- Class: 135
-  Script: {instanceID: 0}
-- Class: 136
+- Class: 120
   Script: {instanceID: 0}
 - Class: 137
+  Script: {instanceID: 0}
+- Class: 143
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 - Class: 222
   Script: {instanceID: 0}
-- Class: 223
-  Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/Bryce Boat/Prefabs/Bow Display.prefab
-- Assets/Bryce Boat/Prefabs/Greenaga.prefab
-- Assets/Toxins/GreenBlockToxin/GreenBlockToxin.prefab
-- Assets/Kevin Iglesias/Dance Animations Pack/Prefabs/Male Dancer Dummy 03.prefab
-- Assets/Bryce Boat/Prefabs/Stabby.prefab
-- Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab
-- Assets/Bryce Boat/Prefabs/A Lemon.prefab
-- Assets/Bryce Boat/Prefabs/Redaga.prefab
-- Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
-- Assets/Bryce Boat/Prefabs/Hax.prefab
-- Assets/Bryce Boat/Prefabs/BryceBoat.prefab
-- Assets/Kevin Iglesias/Throwing Animations Pack/Prefabs/Props/Throwing@Knife.prefab
+- Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab
+- Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/UIHelpers.prefab
+- Assets/Bryce Boat/Prefabs/ParkedBoat.prefab
+- Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab
+- Assets/Scenes/IntroStory/Button.prefab
+- Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab
 Dependencies:
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_resources
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_blend0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_physicmaterial0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_fbx0

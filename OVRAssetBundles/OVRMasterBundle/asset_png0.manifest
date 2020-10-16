@@ -1,15 +1,17 @@
 ManifestFileVersion: 0
-CRC: 2516156496
+CRC: 1480002393
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3287544e1040c0954912b5135f19a896
+    Hash: 920534921fc5dc5f01d9a406c336b09f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 525b72fdacf3aef7d65f355ad8f17a96
+    Hash: 7c92feb8daf166311b3e47737bd87795
 HashAppended: 0
 ClassTypes:
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 213
   Script: {instanceID: 0}
 Assets:
 - Assets/Bryce Boat/Images/UnderwalkLogo.png

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 285129959
+CRC: 3830589474
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2ebcc126b5ca6720499515f80b115e05
+    Hash: 77aabe279d27fe1ec7c0fdf84962b03c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1b63dacf55ec92a43e593d56fc2924a9
@@ -27,5 +27,7 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Bryce Boat/Prefabs/ShinyBoat2.blend
-- Assets/Scenes/Level 2/PipeLevel1.blend
+- Assets/Scenes/Building Blocks/CoffeePipe.blend
+- Assets/Scenes/IntroStory/RouterTent.blend
+- Assets/Scenes/IntroStory/SydneyHut.blend
 Dependencies: []

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1439695129
+CRC: 761072496
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 70accacc78aa65a80279ee8287149d24
+    Hash: 183c495aafca9718a25a720f871fab0c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8215722b766c6decafa3f90512650b44
@@ -16,19 +16,8 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
-- Assets/Bryce Boat/Materials/Lemon.mat
-- Assets/Bryce Boat/Materials/Cannon.mat
-- Assets/Kevin Iglesias/Dance Animations Pack/Materials/DanceAnimationsPack.mat
-- Assets/Bryce Boat/Images/Materials/UnderwalkLogo.mat
-- Assets/AllSkyFree/New Material.mat
-- Assets/Kevin Iglesias/Throwing Animations Pack/Materials/ThrowingTexture.mat
-- Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
-- Assets/Bryce Boat/Materials/Redaga.mat
+- Assets/Scenes/Building Blocks/Pipe.mat
 - Assets/Bryce Boat/Materials/Greenaga.mat
 - Assets/Bryce Boat/Materials/GreenEmission.mat
 Dependencies:
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_png0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_tga0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_psd0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_jpg0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_shader0

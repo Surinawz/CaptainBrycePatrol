@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2989810185
+CRC: 695539617
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f16f1fa53151389e2c0c52e9a091fda9
+    Hash: 2d3f5bc3268327672af6d9481cdeaeb2
   TypeTreeHash:
     serializedVersion: 2
     Hash: 525b72fdacf3aef7d65f355ad8f17a96
@@ -12,6 +12,6 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 Assets:
-- Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
-- Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+- Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+- Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
 Dependencies: []

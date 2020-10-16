@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3273261333
+CRC: 573804273
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 28e3f99f0e20334fc311dd0ab6e301ca
+    Hash: 64d43759e69ce1c3b2bce133f9d685f6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 64ca385ee01f7bd23568d37b95b824ee
+    Hash: 86dfb69bc708c90e623a36db1177cf42
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -76,6 +76,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: ec4661b5c68444346b02a86d97013196, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9c7b8877dfb8e73408b03b537052aed2, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0d2f50a8e0bb841a5aaa90ae55db8849, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
@@ -114,11 +118,13 @@ ClassTypes:
 - Class: 1953259897
   Script: {instanceID: 0}
 Assets:
-- Assets/Scenes/Level 1/Level1.unity
+- Assets/Scenes/Overworld 1/Level1.unity
 Dependencies:
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_blend0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_physicmaterial0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_controller0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mp30
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_asset0
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_controller0

@@ -22,9 +22,11 @@ public class TutorialText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        #region Clear Tutorial TextBox, Create Script List for Iterating, Trigger Invoke Function to Move through Script
         tutorialText.text = "";
         MakeInstructions();
         InvokeRepeating("TutorialTextUpdate",2f, 5f);
+        #endregion
     }
 
     private void MakeInstructions()
@@ -35,7 +37,8 @@ public class TutorialText : MonoBehaviour
         Instructions.Add("This is in Super Beta Right Now\nBut you can Fly and Shoot Hax from the Cannon");
         Instructions.Add("Ready for Instructions? Feel free to test them out as we go.");
         Instructions.Add("To look around... look around");
-        Instructions.Add("Use the Left Control Stick to Move forward and back, and to turn");
+        Instructions.Add("Use the Left Control Stick to Move forward, back and side to side");
+        Instructions.Add("Use the Right Control Stick to turn left and right");
         Instructions.Add("Use the Right Grip to lift up and Fly");
         Instructions.Add("Use the Left Grip to diver Down \n(If gravity isnt fast enough for you)");
         Instructions.Add("Your Right Hand is a Cannon that focuses the power of Hax");
@@ -45,9 +48,10 @@ public class TutorialText : MonoBehaviour
         Instructions.Add("You use up AP to fire Hax. \nYour available AP is on the bottom left of the Bow Display");
         Instructions.Add("Some Hax give you more AP when they are active. Cool right?");
         Instructions.Add(
-            "For reasons of eventual story, your left hand is a flashlight.\nPull the left trigger to turn it off and on.");
+            "If it gets dark, your left hand is a flashlight.\nPull the left trigger to turn it off and on.");
         Instructions.Add("Hope you got that...\n entering the test sim!");
         Instructions.Add("Kill the toxins and find the entrance to the underground drain.\n It's enormous and coffee colored.");
+        Instructions.Add("Look for bright green markers along the way to figure out where to go.");
         #endregion
     }
 
@@ -60,15 +64,16 @@ public class TutorialText : MonoBehaviour
 
     private void TutorialTextUpdate()
     {
+        #region Invoked Coroutine that updates tutorial text in defined interval
         if (tutorialCounter <= Instructions.Count-1)
         {
             tutorialText.text = Instructions[tutorialCounter];
         }
         else
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         tutorialCounter++;
-
+        #endregion
     }
 }

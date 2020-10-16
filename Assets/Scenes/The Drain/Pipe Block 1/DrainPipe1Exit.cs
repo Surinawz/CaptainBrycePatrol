@@ -21,7 +21,7 @@ public class DrainPipe1Exit : MonoBehaviour
     {
         if (collider.name == "Hull")
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(5);
         }
     }
 }

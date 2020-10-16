@@ -281,3 +281,5 @@ E:\Gits\CaptainBrycePatrol\obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompile
 E:\Gits\CaptainBrycePatrol\obj\Debug\Oculus.VR.Scripts.Editor.csproj.CopyComplete
 E:\Gits\CaptainBrycePatrol\obj\Debug\Oculus.VR.Scripts.Editor.dll
 E:\Gits\CaptainBrycePatrol\obj\Debug\Oculus.VR.Scripts.Editor.pdb
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\UnityEditor.iOS.Extensions.Xcode.pdb

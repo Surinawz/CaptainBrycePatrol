@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2212037025
+CRC: 287826314
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: db5ba9461987fe3d7ef2cc90cfbe3735
+    Hash: 84084f2467d7f585b48764dc86d1b67b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8fdc0193888f2c218fa9ee64590c7e19
+    Hash: c38c786b747f92e40d9bbe9a3b26f47c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -15,30 +15,17 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
-- Class: 23
-  Script: {instanceID: 0}
-- Class: 33
-  Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
 - Class: 48
-  Script: {instanceID: 0}
-- Class: 74
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
-- Class: 111
-  Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Dance03.fbx
-- Assets/Kevin Iglesias/Throwing Animations Pack/Models/Props/Throwing@Knife.fbx
-- Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx
-- Assets/Kevin Iglesias/Dance Animations Pack/Models/Male Dancer Dummy.fbx
-- Assets/Kevin Iglesias/Basic Motions Pack/Models/Basic Motions Dummy.fbx
-- Assets/Kevin Iglesias/Dance Animations Pack/Animations/DancePack@Idle01.fbx
-- Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Fall01.fbx
+- Assets/Oculus/VR/Meshes/HandTracking/OculusHand_L.fbx
+- Assets/Oculus/VR/Meshes/HandTracking/OculusHand_R.fbx
 Dependencies: []

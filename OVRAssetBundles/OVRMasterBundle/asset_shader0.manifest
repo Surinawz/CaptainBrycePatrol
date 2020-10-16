@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3445984215
+CRC: 2261443470
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5730256e868409cac3f1ae5a03a215ca
+    Hash: 8a169a14b0310b87dd59efb8f3024e61
   TypeTreeHash:
     serializedVersion: 2
     Hash: 946c7975e10b0f1edbbc05382ba4ce21
@@ -12,5 +12,5 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
-- Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
 Dependencies: []

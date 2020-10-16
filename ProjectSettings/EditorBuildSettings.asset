@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title Screen/Title Screen.unity
+    guid: 5387e1ad9f34d5f47ba7715b69ca511e
+  - enabled: 1
     path: Assets/Scenes/Tutorial/Tutorial.unity
     guid: 5db1192b6e11c1741be295bfdaa97986
+  - enabled: 1
+    path: Assets/Scenes/IntroStory/IntroStory.unity
+    guid: ae43d528ec2a8464a99a71754aa85568
   - enabled: 1
     path: Assets/Scenes/Overworld 1/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab

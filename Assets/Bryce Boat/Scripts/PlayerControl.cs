@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -18,9 +18,20 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float planeForce=-2; // rising angle of bow when moving forward
     [SerializeField] private float liftForce=20; // rising angle of bow when lifting
     [SerializeField] private float floatForce = 50; // upward force due to boyancy on lakes of coffee
+    [SerializeField] private float strafeSpeed = 20; // Speed of Strafing motion
     private Rigidbody boatRigidbody; // assigns rigidbody for boat
     private float turning = 0; // instantiate float for turn calculation later
-#endregion
+
+    enum BoatStatus
+    {
+        Alive,
+        InDanger,
+        Dead
+    }
+
+    private BoatStatus CurrentBoatStatus;
+
+    #endregion
 
     #region Level Objects 
     [SerializeField] private Plane water;
@@ -29,63 +40,91 @@ public class PlayerControl : MonoBehaviour
     #region Controller Throw Values
     private float horizontalThrow;
     private float verticalThrow;
+    private float strafeThrow;
     private float liftThrow;
     private float dropThrow;
     private float ovrLiftThrow;
     private float ovrDropThrow;
     #endregion
 
-#endregion  
+
+    #region player and boat declaration
+    [SerializeField] private Text HullStrength;
+    public Player player = new Player();
+    #endregion
+    #endregion
+
+
+
+
+    void Awake()
+    {
+        #region create Character Attributes
+        player.APMax = 5;
+        player.MaxHullStrength = 300;
+        player.CurrentHullStrength = player.MaxHullStrength;
+        HullStrength.text = player.CurrentHullStrength.ToString();
+        CurrentBoatStatus = BoatStatus.Alive;
+        #endregion
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
     #region Assign Components
             boatRigidbody = GetComponent<Rigidbody>();
-    #endregion
+        #endregion
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-    #region Method for Boat Movement
-        ProcessTranslation();
-        ProcessRotation();
-        ProcessLift();
-        ProcessDrop();
-       // ProcessFloat();
-#endregion
+        #region Method for Boat Movement
+
+        if (CurrentBoatStatus != BoatStatus.Dead)
+        {
+            ProcessThrust();
+            ProcessRotation();
+            ProcessStrafe();
+            ProcessLift();
+            ProcessDrop();
+        }
+
+        #endregion
+
+ 
+
     }
 
+    private void BacktoSurface()
+    {
+        SceneManager.LoadScene(3);
+    }
 
     void OnTriggerEnter(Collider collider)
     {
+    #region Detect Contact with Water and apply bouyancy force
         if (collider.tag == "CoffeeLake")
         {
             boatRigidbody.AddRelativeForce(Vector3.up * floatForce * Time.deltaTime);
         }
+        #endregion
     }
 
     void OnTriggerStay(Collider collider)
     {
+        #region Detect Sustained Contact with Water and Continue to apply Bouyancy Force
         if (collider.tag == "CoffeeLake")
         {
             boatRigidbody.AddRelativeForce(Vector3.up * floatForce * Time.deltaTime);
         }
+        #endregion  
     }
 
    
-    /*   **Should be handled by Triggers now
-    private void ProcessFloat()
-    {
-    #region Provide lift force to bounce at water level
-            if (transform.position.y < 2 && SceneManager.GetActiveScene().buildIndex<2)
-            {
-                boatRigidbody.AddRelativeForce(Vector3.up*lift*Time.deltaTime);
-            }
-    #endregion
-    }
-    */
 
     private void ProcessLift()
     {
@@ -115,7 +154,7 @@ public class PlayerControl : MonoBehaviour
     #endregion
     }
 
-    private void ProcessTranslation()
+    private void ProcessThrust()
     {
     #region Assign Controller Throw Values
             verticalThrow = Input.GetAxis("Vertical");
@@ -133,17 +172,34 @@ public class PlayerControl : MonoBehaviour
             {
                 boatRigidbody.AddRelativeForce(Vector3.forward * verticalThrow * boatSpeed* .5f*Time.deltaTime);
             }
+            else
+            {
+
+            }
         #endregion
-    #endregion  
+ #endregion
+
     }
+    private void ProcessStrafe()
+    {
+        #region Strafe Control
+        strafeThrow = Input.GetAxis("Horizontal");
+        print($"strafe thrown as {strafeThrow}");
+        if (strafeThrow != 0)
+        {
+            boatRigidbody.AddRelativeForce(Vector3.right * strafeThrow * strafeSpeed * Time.deltaTime);
+        }
+        #endregion
+    }
+    
 
     private void ProcessRotation()
     {
     #region Assign Controller Throw Values
-            horizontalThrow = Input.GetAxis("Horizontal");
-    #endregion
-    #region Assign All Rotation Parameters
-            turning += (horizontalThrow * turnSpeed * Time.deltaTime); // Left and Right Turn 
+            horizontalThrow = Input.GetAxis("Oculus_CrossPlatform_SecondaryThumbstickHorizontal");
+        #endregion
+        #region Assign All Rotation Parameters
+        turning += (horizontalThrow * turnSpeed * Time.deltaTime); // Left and Right Turn 
                 float turnForce = transform.localRotation.z + (horizontalThrow * rotationFromFriction); // Z Rotation to simulate Centrifugal Force
                 liftForce = -boatRigidbody.velocity.y; // Modifier for Bow Angle based on Lift or Drop
                 float ridePlane = transform.localRotation.x + (verticalThrow * planeForce) + (liftForce); //Modifier for Bow Angle with Forward Velocity with Lift/Drop
@@ -152,4 +208,46 @@ public class PlayerControl : MonoBehaviour
             transform.localRotation = Quaternion.Euler(ridePlane, turning, turnForce);
     #endregion  
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+
+        print(collision.gameObject.tag);
+
+        #region Set Boat Status
+        if (collision.gameObject.tag=="EnemyHax")
+        {
+            player.CurrentHullStrength -= 5;
+        }
+        
+        HullStrength.text = player.CurrentHullStrength.ToString();
+
+        if (player.CurrentHullStrength / player.MaxHullStrength > .15)
+        {
+            CurrentBoatStatus = BoatStatus.Alive;
+        }
+        else if (player.CurrentHullStrength / player.MaxHullStrength > 0)
+        {
+            CurrentBoatStatus = BoatStatus.InDanger;
+        }
+        else if (player.CurrentHullStrength / player.MaxHullStrength <= 0)
+        {
+            CurrentBoatStatus = BoatStatus.Dead;
+            Invoke("BacktoSurface", 3);
+        }
+
+      
+
+        #endregion
+
+        #region Death
+
+         // Update when Router Town Area is complete to send back to Router Town
+
+        #endregion
+
+
+    }
+
+
 }

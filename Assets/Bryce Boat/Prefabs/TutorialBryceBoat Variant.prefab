@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: Hax
       value: 
       objectReference: {fileID: 6697119783001388027, guid: e4d757adabd49674aadd37770eec40c5, type: 3}
+    - target: {fileID: 4033162576194477138, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
+      propertyPath: m_Name
+      value: TutorialBryceBoat Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 5921186320912672784, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
       propertyPath: m_Name
       value: BryceBoat
@@ -89,17 +93,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
---- !u!4 &3797780787777594882 stripped
+--- !u!4 &3353925122555131581 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3298692520843267306, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4033162576194477141, guid: 60d8c57ecb15ed1439da8388359f2069, type: 3}
   m_PrefabInstance: {fileID: 1833847817099061992}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4593279805921979773
+--- !u!1001 &3647605970235453758
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3797780787777594882}
+    m_TransformParent: {fileID: 3353925122555131581}
     m_Modifications:
     - target: {fileID: 5018784991751488582, guid: 0d09facd0c88a0a4cb703aceb02f9df2, type: 3}
       propertyPath: m_LocalPosition.x

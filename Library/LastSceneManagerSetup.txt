@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/The Drain/Pipe Block 2/Pipe Block 2.unity
+- path: Assets/Scenes/Sandbox/sandbox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 871122073
+CRC: 2827899530
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c15f621b1498205f5a6ea5a671be6c64
+    Hash: db841e2314585e9a7f9ac943a4c64df6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 44be39b858f0f6a6111e219523fce03b
+    Hash: 8788a335136c7bf2496f9118cfb4fb34
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -36,10 +36,6 @@ ClassTypes:
 - Class: 74
   Script: {instanceID: 0}
 - Class: 81
-  Script: {instanceID: 0}
-- Class: 82
-  Script: {instanceID: 0}
-- Class: 83
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
@@ -74,11 +70,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: a4447bf37b0c49747a5cfc31417d2673, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: e503ea6418d27594caa33b93cac1b06a, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 786742f4ba0766943a2a07b6cf8c7178, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec4661b5c68444346b02a86d97013196, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0d2f50a8e0bb841a5aaa90ae55db8849, type: 3}
 - Class: 114
@@ -99,6 +95,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 196
   Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 - Class: 222
@@ -112,6 +110,7 @@ ClassTypes:
 Assets:
 - Assets/Scenes/Tutorial/Tutorial.unity
 Dependencies:
-- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_fbx0
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_controller0

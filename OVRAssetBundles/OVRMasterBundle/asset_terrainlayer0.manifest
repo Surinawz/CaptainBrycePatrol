@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 57002287
+CRC: 3280654650
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 967f018543bb94a3b6a5f381b93151ea
+    Hash: 8fc7280f5edb87e832bbf945cf8a83e0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 267dd8168802ae775a46825a92ab8009
@@ -14,8 +14,7 @@ ClassTypes:
 - Class: 1953259897
   Script: {instanceID: 0}
 Assets:
-- Assets/ADG_Textures/ground_vol1/ground4/NewLayer 1.terrainlayer
-- Assets/AllSkyFree/NewLayer.terrainlayer
-- Assets/ADG_Textures/ground_vol1/ground4/NewLayer.terrainlayer
+- Assets/Bryce Boat/Prefabs/NewLayer 1.terrainlayer
+- Assets/Bryce Boat/Prefabs/NewLayer.terrainlayer
 Dependencies:
 - E:/Gits/CaptainBrycePatrol/OVRAssetBundles/OVRMasterBundle/asset_tga0

@@ -27,6 +27,17 @@ public class HaxOnCollision : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             deathLight.intensity = 30f;
+            if (gameObject.name == "Periwinkle")
+            {
+                var meshes = collision.gameObject.GetComponentsInChildren<MeshRenderer>();
+                var peri = gameObject.transform.GetChild(0).GetComponent<MeshRenderer>();
+                foreach (MeshRenderer m in meshes )
+                {
+                    m.material = peri.material;
+                }
+
+            }
+
             Destroy(transform.gameObject, .05f);
         }
         #endregion

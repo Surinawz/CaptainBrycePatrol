@@ -305,3 +305,5 @@ E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\nunit.framework.xml
 E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp.dll
 E:\Gits\CaptainBrycePatrol\obj\Debug\Assembly-CSharp.pdb
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.2D.Sprite.Editor.dll
+E:\Gits\CaptainBrycePatrol\Temp\Bin\Debug\Unity.2D.Sprite.Editor.pdb
